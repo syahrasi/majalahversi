@@ -1,6 +1,6 @@
 
 <div id="node-<?php print $node->nid; ?>" class="node<?php if ($sticky) { print ' sticky'; } ?><?php if (!$status) { print ' node-unpublished'; } ?> clear-block">
-<?php if(drupal_is_front_page() && $node->type == "artikel" && $node->taxonomy[47]->tid == 47) {
+<?php if(drupal_is_front_page() && $node->type == "artikel" && is_flagged) {
   $node = node_load($node->nid);
   $teaser = check_markup($node->teaser, $node->format, FALSE);
   $file = $node->field_main_image;
