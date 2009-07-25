@@ -96,9 +96,11 @@
 
       print $help; // Drupal already wraps this one in a class      
     ?>
-    <div id="content-content">
-      <?php print $content; ?>
-    </div> <!-- /content-content -->
+    <?php if ($content): ?>
+      <div id="content-content">
+        <?php print $content; ?>
+      </div> <!-- /content-content -->
+    <?php endif ?>
   </div>
 
   <?php if ($right): ?>
