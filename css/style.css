@@ -844,14 +844,14 @@ div.terms ul.links li {
     font-weight: bold; }
 div.comment {
   background-color: #F7F7F7;
-  margin: 0 0 20px 0;
-  padding: 20px; }
+  margin: 20px 0;
+  padding: 0; }
 div.comment-content {
   float: right;
   margin: 0;
   padding: 0;
   position: relative;
-  width: 455px; }
+  width: 465px; }
 div.preview div.comment-content {
   width: 415px; }
 div.comment.odd {
@@ -861,16 +861,15 @@ div.comment.author {
   div.comment.author img {
     background-color: #333;
     border: 1px solid #333;
-    padding: 9px; }
+    padding: 4px; }
 div.comment-picture {
   border: 0;
   float: left;
-  margin-right: 20px;
   padding: 0; }
   div.comment-picture img {
     background-color: #F6F6F6;
     border: 1px solid #CCC;
-    padding: 9px; }
+    padding: 4px; }
 div.comment span.new {
   background-color: #CC0000;
   color: #FFF;
