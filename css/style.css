@@ -17,11 +17,11 @@ FOOTER
 body {
   background: #666 url(../images/bg.png) repeat-y scroll 50% 0; }
 
-.container {
+div.container {
   background-color: #EEE;
   border: 0px solid #666;
   width: 980px;
-  margin: 0 auto; }
+  margin: 0 auto; }  
 
 #feedback-tab {
   background: #222 url(../images/feedback-tab.png);
