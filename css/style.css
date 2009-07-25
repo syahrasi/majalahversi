@@ -76,11 +76,14 @@ div.admin-panel h3 {
 div.node-links {
   background-color: #F6F6F6;
   border-top: 1px solid #CCC;
-  margin: 0;
+  margin: 0 0 30px 0;
   padding: 10px 20px 10px 20px; }
   div.node-links ul.links {
     margin: 0;
     padding: 0; }
+div.views-row-last div.node-links {
+  margin-bottom: 0;
+}
 
 #block-menu-primary-links div.edit a {
   padding: 2px;
@@ -815,7 +818,7 @@ div.views-row-last div.node {
 div.node .categories ul {
   text-align: left;
   text-transform: uppercase;
-  margin: 0 0 10px 0; }
+  margin: 0; }
   div.node .categories ul li a {
     letter-spacing: .5em;
     color: #C00; }
