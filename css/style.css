@@ -852,6 +852,10 @@ div.comment-content {
   padding: 0;
   position: relative;
   width: 465px; }
+  div.comment-content ul.links {
+    background-color: #F6F6F6;
+    border-bottom: 1px solid #CCC;
+    padding: 10px; }
 div.preview div.comment-content {
   width: 415px; }
 div.comment.odd {
