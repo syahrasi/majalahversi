@@ -31,6 +31,7 @@
     <?php endif ?>
     <span class='row-author'><?php print $fields['field_penulis_nid']->content; ?></span>&nbsp;&nbsp;|&nbsp;&nbsp;
     <span class='row-date'><?php print $fields['created']->content; ?></span>
+    <span class='row-comment-count'><?php print $fields['comment_count']->content; ?></span>
   </p>
   <h2 class='row-title'>
     <?php print $fields['title']->content; ?>      
@@ -38,9 +39,6 @@
   <div class='row-teaser'>
     <?php print $fields['teaser']->content; ?>
   </div>
-  <div class='row-interact'>
-    <div class='row-comment-count'><?php print $fields['comment_count']->content; ?></div>
-  </div>   
 </div>
 
 

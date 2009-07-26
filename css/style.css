@@ -595,11 +595,10 @@ div.view-perusahaan .row-thumb {
 
 .row-comment-count {
   color: #C00;
-  background: transparent url(../images/bg_comment_cloud.png) no-repeat scroll 50% 30%;
+  background: transparent url(../images/bg_comment_cloud.png) no-repeat scroll 50% 10%;
   font-size: .8em;
   font-weight: bold;
-  float: right;
-  padding: 9px 20px 20px 20px; }
+  padding: 5px 20px 10px; }
 
 .row-rating {
   float: left;
