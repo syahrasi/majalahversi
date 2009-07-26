@@ -123,7 +123,7 @@ div.block {
   margin: 20px 20px 0 20px; }
 
   #center h2 {
-    border-bottom: solid 0px #1D1D1D;
+    line-height: 1em;
     margin-bottom: 10px; }
 
 div.tabs {
