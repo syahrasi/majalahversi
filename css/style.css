@@ -375,6 +375,7 @@ div.attachment-before div.view-id-perusahaan div.view-content {
     border-bottom: 1px solid #EEEEEE;
     margin-bottom: 20px; }
   div.view-artikel div.views-row-last {
+    border: 0;
     margin-bottom: 0; }
   div.row-teaser div.read-more {
     text-align:right;
@@ -385,6 +386,8 @@ div.attachment-before div.view-id-perusahaan div.view-content {
       -moz-border-radius: 10px;
       -webkit-border-radius: 10px;
       font-style: italic; }
+  div.view-artikel div.views-row-last div.read-more {
+    margin-bottom: 0; }
   
 
 #right {
