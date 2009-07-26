@@ -437,7 +437,7 @@ function majalahversi_trim_text($text, $length = 150) {
 /**
 * Override or insert PHPTemplate variables into the node template.
 */
-
+/*
 function majalahversi_preprocess_node(&$vars) {
   $node = $vars['node'];
   $vars['date'] = format_date($node->created, 'custom', 'j M Y');
@@ -469,7 +469,7 @@ function majalahversi_preprocess_node(&$vars) {
       $vars['authors'] .= '</span>,&nbsp;';
     }
   }
-}
+}*/
 
 
 
