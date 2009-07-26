@@ -24,7 +24,13 @@
     <?php print $fields['field_main_image_fid']->content; ?>    
   </div>
   <p class='row-info'>
-      <span class='row-term'><?php print $fields['name']->content; ?></span>&nbsp;&nbsp;|&nbsp;&nbsp;Oleh:&nbsp;&nbsp;<span class='row-author'><?php print $fields['field_penulis_nid']->content; ?></span>&nbsp;&nbsp;|&nbsp;&nbsp;<span class='row-date'><?php print $fields['created']->content; ?></span>
+    <?php if($fields['name']->content): ?>
+      <span class='row-term'>
+        <?php print $fields['name']->content; ?>
+      </span>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <?php endif ?>
+    <span class='row-author'><?php print $fields['field_penulis_nid']->content; ?></span>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <span class='row-date'><?php print $fields['created']->content; ?></span>
   </p>
   <h2 class='row-title'>
     <?php print $fields['title']->content; ?>      
