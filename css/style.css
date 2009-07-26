@@ -376,9 +376,15 @@ div.attachment-before div.view-id-perusahaan div.view-content {
     margin-bottom: 20px; }
   div.view-artikel div.views-row-last {
     margin-bottom: 0; }
-  div.row-teaser span.read-more {
-    display: block; 
+  div.row-teaser div.read-more {
+    text-align:right;
     margin-bottom: 20px;}
+    div.read-more a {
+      padding: 3px 10px;
+      background-color: #F7F7F7;
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      font-style: italic; }
   
 
 #right {

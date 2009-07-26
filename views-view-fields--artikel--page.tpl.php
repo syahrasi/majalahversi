@@ -37,7 +37,7 @@
     <?php print $fields['title']->content; ?>      
   </h2>
   <div class='row-teaser'>
-    <?php print $fields['teaser']->content; ?><span class='read-more'><?php print $fields['view_node']->content; ?></span>
+    <?php print $fields['teaser']->content; ?><div class='read-more'><?php print $fields['view_node']->content; ?></div>
   </div>
 </div>
 
