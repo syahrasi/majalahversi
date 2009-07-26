@@ -375,8 +375,11 @@ div.attachment-before div.view-id-perusahaan div.view-content {
     border-bottom: 1px solid #EEEEEE;
     margin-bottom: 20px; }
   div.view-artikel div.views-row-last {
-    margin-bottom: 0;
-  }
+    margin-bottom: 0; }
+  div.row-teaser span.read-more {
+    display: block; 
+    margin-bottom: 20px;}
+  
 
 #right {
   margin-top: 20px; }
