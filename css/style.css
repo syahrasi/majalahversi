@@ -15,6 +15,7 @@ FOOTER
 
 
 body {
+  color: #333;
   background: #666 url(../images/bg.png) repeat-y scroll 50% 0; }
 
 div.container {
@@ -366,10 +367,18 @@ div.attachment-before div.view-id-perusahaan div.view-content {
 */
 
 #content-content {
+  border-top: 5px solid #CCCCCC;
   background-color: #FFF;
   margin-bottom: 20px;
   padding: 20px;
   float: left; }
+  
+  div.view-artikel div.views-row {
+    border-bottom: 1px solid #EEEEEE;
+    margin-bottom: 20px; }
+  div.view-artikel div.views-row-last {
+    margin-bottom: 0;
+  }
 
 #right {
   margin-top: 20px; }
