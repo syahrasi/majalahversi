@@ -24,9 +24,9 @@
     <?php print $fields['field_main_image_fid']->content; ?>    
   </div>
   <p class='row-info'>
-    <?php if($fields['name']->content): ?>
+    <?php if($fields['tid']->content): ?>
       <span class='row-term'>
-        <?php print $fields['name']->content; ?>
+        <?php print $fields['tid']->content; ?>
       </span>&nbsp;&nbsp;|&nbsp;&nbsp;
     <?php endif ?>
     <span class='row-author'><?php print $fields['field_penulis_nid']->content; ?></span>&nbsp;&nbsp;|&nbsp;&nbsp;
