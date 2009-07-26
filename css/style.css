@@ -607,12 +607,18 @@ div.view-perusahaan .row-thumb {
   width: 130px;
   margin-right: 20px; }
 
+
+
 .row-comment-count {
   color: #C00;
   background: transparent url(../images/bg_comment_cloud.png) no-repeat scroll 50% 10%;
   font-size: .8em;
   font-weight: bold;
   padding: 5px 20px 10px; }
+
+.row-galeri-info .row-comment-count {
+  float:right;
+  padding: 3px 20px 10px; }
 
 .row-rating {
   float: left;
