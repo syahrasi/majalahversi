@@ -904,8 +904,8 @@ div.comment span.new {
   display: block;
   padding: 4px;
   position: absolute;
-  right: -25px;
-  top: -25px; }
+  right: -33px;
+  top: -5px; }
 
 #comment-form, 
 #filter-admin-format-form {
