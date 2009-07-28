@@ -955,6 +955,9 @@ ul.pager a:active {
   border: 0;
   background-color: #111;
   color: #FFF; }
+div.more-link {
+  padding: 10px 20px;
+}
 
 /*
 =FOOTER
