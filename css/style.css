@@ -387,7 +387,9 @@ div.attachment-before div.view-id-perusahaan div.view-content {
       font-style: italic; }
   div.view-artikel div.views-row-last div.read-more {
     margin-bottom: 0; }
-  
+.fivestar-form-item {
+  padding: 20px 0;
+}
 
 #right {
   margin-top: 20px; }
