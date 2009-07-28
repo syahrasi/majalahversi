@@ -974,10 +974,11 @@ div.more-link a {
   width: 980px;
   border-top: 1px solid #333; }
   #footer div.block {
-    background-image: none;}
+    background-image: none;
+    margin-bottom: 0;}
   #footer ul.menu {
     margin: 0;
-    padding: 10px; }
+    padding: 20px; }
     #footer ul.menu li {
       float: left;
       list-style: none; }
