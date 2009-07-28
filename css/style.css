@@ -543,6 +543,8 @@ h3.block-title {
   margin: 0;
   border-bottom: 1px solid #EEE; }
 
+#block-views-artikel-block_2 div.views-row-last {
+  border-bottom: 0; }
 
 #block-views-issue-block_1 div.views-row div.row-thumb img, 
 #block-views-artikel-block_2 div.views-row div.row-thumb img {
