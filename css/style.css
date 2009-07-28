@@ -873,8 +873,9 @@ div.terms ul.links li {
     color: #FFFFFF;
     font-weight: bold; }
 div.comment {
-  margin: 20px 0;
-  padding: 0; }
+  border-top: 1px solid #EEE;
+  margin: 0;
+  padding: 20px 0; }
 div.comment-content {
   float: right;
   margin: 0;
@@ -883,7 +884,6 @@ div.comment-content {
   width: 465px; }
   div.comment-content ul.links {
     border-top: 1px solid #EEE;
-    border-bottom: 1px solid #EEE;
     padding: 10px 0; }
 div.preview div.comment-content {
   width: 415px; }
@@ -928,7 +928,7 @@ div.box {
     margin-bottom: 0; }
 
 h3#comment-number {
-  border-bottom: 1px solid #EEE;
+  border: none;
   margin: 0px;
   padding: 20px 0; }
 
