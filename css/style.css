@@ -957,8 +957,14 @@ ul.pager a:active {
   background-color: #111;
   color: #FFF; }
 div.more-link {
-  padding: 10px 20px;
+  padding: 20px 20px;
 }
+div.more-link a {
+  padding: 3px 10px;
+  background-color: #EEEEEE;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  font-style: italic; }
 
 /*
 =FOOTER
