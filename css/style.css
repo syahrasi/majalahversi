@@ -780,6 +780,9 @@ div.views-row h3 {
   margin-bottom: 20px;
   padding: 20px;
   text-align: center; }
+  #content-bottom div.block {
+    position:relative;
+  }
 
 div#container div.no-bottom-margin div.block {
   margin-bottom: 0; }
