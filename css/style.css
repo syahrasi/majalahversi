@@ -369,6 +369,11 @@ div.attachment-before div.view-id-perusahaan div.view-content {
   background-color: #FFF;
   margin-bottom: 20px;
   padding: 20px; }
+.page-galeri #content-content, 
+.page-karikatur #content-content {
+  padding-left: 0;
+  overflow: hidden;
+} 
   
   div.view-artikel div.views-row {
     border-bottom: 1px solid #EEEEEE;
