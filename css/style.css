@@ -718,10 +718,8 @@ div.views-row h3 {
 .page-galeri div.view-content div.views-field-field-main-image-fid a:hover img {
   background-color: #CCC; }
 
-.page-karikatur div.view-content div.views-row-odd, 
-.page-galeri div.view-content div.views-row-odd, 
-.page-karikatur div.view-content div.views-row-even, 
-.page-galeri div.view-content div.views-row-even {
+.page-karikatur div.view-content div.views-row, 
+.page-galeri div.view-content div.views-row {
   display: inline-block;
   float: left;
   margin: 0 0 20px 20px;
@@ -730,10 +728,8 @@ div.views-row h3 {
   vertical-align: baseline;
   width: 130px; }
 
-.page-karikatur div.view-content div.views-row-odd div.views-field-name, 
-.page-galeri div.view-content div.views-row-odd div.views-field-name, 
-.page-karikatur div.view-content div.views-row-even div.views-field-name, 
-.page-galeri div.view-content div.views-row-even div.views-field-name {
+.page-karikatur div.view-content div.views-row div.views-field-name, 
+.page-galeri div.view-content div.views-row div.views-field-name {
   background-color: #000000;
   opacity: 0.8;
   padding: 4px;
@@ -742,26 +738,20 @@ div.views-row h3 {
   font-size: .8em;
   top: 0; }
 
-.page-karikatur div.attachment div.view-content div.views-row-odd div.views-field-name, 
-.page-galeri div.attachment div.view-content div.views-row-odd div.views-field-name, 
-.page-karikatur div.attachment div.view-content div.views-row-even div.views-field-name, 
-.page-galeri div.attachment div.view-content div.views-row-even div.views-field-name {
+.page-karikatur div.attachment div.view-content div.views-row div.views-field-name, 
+.page-galeri div.attachment div.view-content div.views-row div.views-field-name {
   background-color: #000000;
   opacity: 1;
   font-size: 1em; }
 
-.page-karikatur div.view-content div.views-row-odd div.views-field-name a, 
-.page-galeri div.view-content div.views-row-odd div.views-field-name a, 
-.page-karikatur div.view-content div.views-row-even div.views-field-name a, 
-.page-galeri div.view-content div.views-row-even div.views-field-name a {
+.page-karikatur div.view-content div.views-row div.views-field-name a, 
+.page-galeri div.view-content div.views-row div.views-field-name a {
   color: #FFF;
   font-weight: bold;
   text-transform: uppercase; }
 
-.page-karikatur div.attachment div.view-content div.views-row-odd, 
-.page-galeri div.attachment div.view-content div.views-row-odd, 
-.page-karikatur div.attachment div.view-content div.views-row-even, 
-.page-galeri div.attachment div.view-content div.views-row-even {
+.page-karikatur div.attachment div.view-content div.views-row, 
+.page-galeri div.attachment div.view-content div.views-row {
   display: inline-block;
   float: left;
   margin: 0 0 20px 20px;
