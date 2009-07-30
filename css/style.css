@@ -860,21 +860,9 @@ p.node-submit-info {
   color: #C00; }
 
 div.terms {
-  background-color: #1D1D1D;
-  display: block;
-  font-size: 1.2em;
-  padding: 5px;
-  position: absolute;
-  right: 0;
-  text-transform: uppercase;
-  top: 0; }
+  text-transform: uppercase; }
 div.meta {
   border-bottom: 0px solid #CCC; }
-div.terms ul.links li {
-  padding: 0; }
-  div.terms ul.links li a {
-    color: #FFFFFF;
-    font-weight: bold; }
 div.comment {
   border-top: 1px solid #EEE;
   margin: 0;
