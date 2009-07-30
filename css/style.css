@@ -377,12 +377,14 @@ div.attachment-before div.view-id-perusahaan div.view-content {
   
 div.view-artikel div.views-row,
 div.view-perusahaan div.views-row,
-div.view-agenda div.views-row {
+div.view-agenda div.views-row,
+div.view-jualan div.views-row {
   border-bottom: 1px solid #EEEEEE;
   margin-bottom: 20px; }
 div.view-artikel div.views-row-last,
 div.view-perusahaan div.views-row-last,
-div.view-agenda div.views-row-last {
+div.view-agenda div.views-row-last,
+div.view-jualan div.views-row-last {
   border: 0;
   margin-bottom: 0; }
 div.row-teaser div.read-more {
@@ -396,7 +398,8 @@ div.row-teaser div.read-more {
     font-style: italic; }
 div.view-artikel div.views-row-last div.read-more,
 div.view-perusahaan div.views-row-last div.read-more, 
-div.view-agenda div.views-row-last div.read-more {
+div.view-agenda div.views-row-last div.read-more,
+div.view-jualan div.views-row-last div.read-more {
   margin-bottom: 0; }
     
 .fivestar-form-item {
@@ -655,9 +658,10 @@ div.row-image img {
 .page-karikatur div.row-image img {
   background-color: #F6F6F6; }
 
+div.view-jualan div.views-row div.row-date,
 div.view-lowongan div.views-row div.row-date {
   text-align: center;
-  margin: -20px;
+  margin: -21px -20px 0 0;
   padding: 5px;
   background-color: #CCC;
   color: #333;
