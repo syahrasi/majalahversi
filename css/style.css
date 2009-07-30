@@ -657,7 +657,7 @@ div.row-image img {
 
 div.view-lowongan div.views-row div.row-date {
   text-align: center;
-  margin: 0;
+  margin: -20px;
   padding: 5px;
   background-color: #CCC;
   color: #333;
@@ -666,6 +666,7 @@ div.view-lowongan div.views-row div.row-date {
 div.view-lowongan .row-company {
   font-weight: bold; }
 div.view-lowongan div.views-row {
+  padding: 20px;
   margin-bottom: 0;
   border-top: 1px solid #CCC; }
 div.view-lowongan div.views-row-last {
