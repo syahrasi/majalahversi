@@ -934,8 +934,8 @@ ul.jquerymenu li.parent span.closed {
   background-image: url(../images/29.png); }
 ul.jquerymenu li.parent span.open {
   background-image: url(../images/30.png); }
-ul.custom-pager {
-  margin-top: 20px; }
+ul.custom-pager li {
+  margin: 10px 0; }
 ul.pager li.pager-current {
   background-color: #111; }
 ul.pager a {
