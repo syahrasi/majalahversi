@@ -655,8 +655,6 @@ div.row-image img {
 .page-karikatur div.row-image img {
   background-color: #F6F6F6; }
 
-div.view-lowongan div.views-row div.row-container {
-  width: 410px; }
 div.view-lowongan div.views-row div.row-date {
   text-align: center;
   margin: 0;
@@ -710,8 +708,6 @@ div.view-header {
   div.view-header span.header-poststatus {
     background-color: #CCC;
     padding: 2px; }
-div.view-agenda div.views-row div.row-container {
-  width: 100%; }
 div.views-row h3 {
   margin-bottom: .2em; }
 
