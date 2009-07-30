@@ -375,23 +375,24 @@ div.attachment-before div.view-id-perusahaan div.view-content {
   overflow: hidden;
 } 
   
-  div.view-artikel div.views-row {
-    border-bottom: 1px solid #EEEEEE;
-    margin-bottom: 20px; }
-  div.view-artikel div.views-row-last {
-    border: 0;
-    margin-bottom: 0; }
-  div.row-teaser div.read-more {
-    text-align:right;
-    margin-bottom: 20px;}
-    div.read-more a {
-      padding: 3px 10px;
-      background-color: #EEEEEE;
-      -moz-border-radius: 10px;
-      -webkit-border-radius: 10px;
-      font-style: italic; }
-  div.view-artikel div.views-row-last div.read-more {
-    margin-bottom: 0; }
+div.view-artikel div.views-row {
+  border-bottom: 1px solid #EEEEEE;
+  margin-bottom: 20px; }
+div.view-artikel div.views-row-last {
+  border: 0;
+  margin-bottom: 0; }
+div.row-teaser div.read-more {
+  text-align:right;
+  margin-bottom: 20px;}
+  div.read-more a {
+    padding: 3px 10px;
+    background-color: #EEEEEE;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    font-style: italic; }
+div.view-artikel div.views-row-last div.read-more {
+  margin-bottom: 0; }
+    
 .fivestar-form-item {
   padding: 20px 0;
 }
