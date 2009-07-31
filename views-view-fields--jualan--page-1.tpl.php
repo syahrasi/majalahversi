@@ -17,6 +17,12 @@
         <?php print $fields['name']->content; ?>
       </span>
     <?php endif ?>
+    <?php if($fields['field_city_value']->content): ?>
+      ,
+      <span class='row-city'>
+        <?php print $fields['field_city_value']->content; ?>
+      </span>
+    <?php endif ?>
   </p>
   <h3 class='row-title'>
     <?php print $fields['title']->content; ?>      
