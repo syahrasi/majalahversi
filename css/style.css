@@ -492,6 +492,7 @@ div.view-jualan div.views-row-last div.read-more {
     margin-bottom: 10px;
     text-align: right; }
 
+
 #block-views-lowongan-block_1 div.view-display-id-block_1 div.view-content,      
 #block-views-jualan-block_1 div.view-display-id-block_1 div.view-content,    
 #block-views-agenda-block_1 div.view-display-id-block_1 div.view-content {
@@ -699,6 +700,15 @@ div.view-lowongan div.views-row-odd {
   background-color: #F6F6F6; }
 div.view-lowongan div.views-row:hover {
   background-color: #EEE; }
+
+#right div.view-lowongan div.views-row {
+  border-bottom: 1px solid #EEE;
+  border-top: none;
+  padding-left: 10px }
+#right div.view-lowongan div.views-row-odd {
+  background: none; }
+#right div.view-lowongan div.views-row:hover {
+  background: none; }
 
 .views-exposed-form {
   background-color: #F6F6F6;
