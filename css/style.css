@@ -622,6 +622,23 @@ div.view-perusahaan .row-container {
   float: left;
   width: 100%; }
 
+.page-galeri .row-container {
+  position: relative;
+}
+
+.page-galeri .row-term {
+  padding: 5px;
+  position: absolute;
+  opacity: .8;
+  top: 10px;
+  right: 10px;
+  background-color: #000; }
+  
+  .page-galeri .row-term a {
+    color: #FFF;
+    opacity: 1;
+  }
+
 .page-galeri .row-galeri-info, 
 .page-karikatur .row-galeri-info {
   background-color: #F6F6F6; }
