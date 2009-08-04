@@ -471,7 +471,17 @@ function majalahversi_preprocess_node(&$vars) {
   }
 }*/
 
-
+function majalahversi_preprocess_node(&$vars) {
+  $node = $vars['node'];
+  $vars['date'] = format_date($node->created, 'custom', 'j M Y');
+  if ($node->field_penulis) {
+    foreach ($node->field_penulis as $author) {
+      $vars['authors'] .= '<span class="author">';
+      $vars['authors'] .= $author['view'];
+      $vars['authors'] .= '</span>,&nbsp;';
+    }
+  }
+}
 
 
 

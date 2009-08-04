@@ -882,6 +882,11 @@ background-color: #FFF;
   margin: 0;
   padding: 0; }
 
+div.node .terms {
+  float: right;
+  text-transform: uppercase;
+}
+
 div.node .terms .links li {
   padding: 0 0 0 10px;
 }
@@ -904,7 +909,9 @@ div.node .categories ul {
     color: #C00; }
 
 p.node-submit-info {
-  color: #C00; }
+  color: #C00; 
+  padding: 0 0 5px;
+  border-bottom: 1px solid #EEE; }
 
 div.terms {
   text-transform: uppercase; }
