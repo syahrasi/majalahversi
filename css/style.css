@@ -882,6 +882,10 @@ background-color: #FFF;
   margin: 0;
   padding: 0; }
 
+div.node .terms .links li {
+  padding: 0 0 0 10px;
+}
+
 div.views-row-last div.node {
   margin-bottom: 0; }
 
