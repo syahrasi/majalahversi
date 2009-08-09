@@ -437,7 +437,7 @@ function majalahversi_trim_text($text, $length = 150) {
 /**
 * Override or insert PHPTemplate variables into the node template.
 */
-/*
+
 function majalahversi_preprocess_node(&$vars) {
   $node = $vars['node'];
   $vars['date'] = format_date($node->created, 'custom', 'j M Y');
@@ -457,23 +457,41 @@ function majalahversi_preprocess_node(&$vars) {
         ),
       );       
     }
+    switch ($node->type)
+    {
+      case 'artikel':
+        $vocab = $vocabulary[4];
+      break;
+      case 'makassar':
+        $vocab = $vocabulary[19];
+      break;
+      case 'keliling':
+        $vocab = $vocabulary[21];
+      break;
+      case 'perusahaan':
+        $vocab = $vocabulary[18];
+      break;
+      case 'lowongan':
+        $vocab = $vocabulary[18];
+      break;
+      case 'agenda':
+        $vocab = $vocabulary[9];
+      break;
+      case 'iklan':
+        $vocab = $vocabulary[10];
+      break;
+      case 'foto':
+        $vocab = $vocabulary[16];
+      break;          
+      default:
+        $vocab = $vocabulary[4];
+      break;
+    }
     $vars['tags']= theme('links',$vocabulary[15], array('class'=>'links inline'));
-    $vars['categories']= theme('links',$vocabulary[4], array('class'=>'links inline'));
+    $vars['categories']= theme('links',$vocab, array('class'=>'links inline'));
     $vars['terms']= $vars['categories'];
     
   }
-  if ($node->field_penulis) {
-    foreach ($node->field_penulis as $author) {
-      $vars['authors'] .= '<span class="author">';
-      $vars['authors'] .= $author['view'];
-      $vars['authors'] .= '</span>,&nbsp;';
-    }
-  }
-}*/
-
-function majalahversi_preprocess_node(&$vars) {
-  $node = $vars['node'];
-  $vars['date'] = format_date($node->created, 'custom', 'j M Y');
   if ($node->field_penulis) {
     foreach ($node->field_penulis as $author) {
       $vars['authors'] .= '<span class="author">';
