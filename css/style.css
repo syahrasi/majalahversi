@@ -661,7 +661,7 @@ div.view-perusahaan .row-container {
 .row-galeri-info div.row-title {
   text-align: left;
   min-height: 80px;
-  margin: 10px; }
+  margin: 0 10px; }
 
 .row-info {
   text-transform: uppercase; }
