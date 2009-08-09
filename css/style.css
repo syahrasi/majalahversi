@@ -638,6 +638,13 @@ div.view-perusahaan .row-container {
   right: 10px;
   background-color: #000; }
   
+  .page-galeri .row-term ul {
+    margin: 0;
+  }
+    .page-galeri .row-term ul li{
+    display: inline;
+    list-style-type: none;
+  }
   .page-galeri .row-term a {
     color: #FFF;
     opacity: 1;
