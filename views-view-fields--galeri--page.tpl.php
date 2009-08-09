@@ -1,7 +1,9 @@
 <div class='row-container'>
-  <div class='row-term'>
-    <?php print $fields['name']->content; ?>    
-  </div>
+  <?php if($fields['tid']->content): ?>
+    <span class='row-term'>
+      <?php print $fields['tid']->content; ?>
+    </span>
+  <?php endif ?>
   <div class='row-image'>
     <?php print $fields['field_main_image_fid']->content; ?>    
   </div>
