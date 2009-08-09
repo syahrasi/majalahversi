@@ -167,6 +167,10 @@ ul.secondary li a {
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px; }
 
+span.tags ul {
+  margin-bottom: 20px;
+}
+
 span.tags ul li a {
   padding: 3px 10px;
   background-color: #F7F7F7;
