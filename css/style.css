@@ -652,11 +652,16 @@ div.view-perusahaan .row-container {
 
 .page-galeri .row-galeri-info, 
 .page-karikatur .row-galeri-info {
-  background-color: #F6F6F6; }
+  background-color: transparent; }
 
 .row-galeri-info p {
   text-align: left;
-  margin: 0 10px; }
+  margin: 10px; }
+
+.row-galeri-info div.row-title {
+  text-align: left;
+  min-height: 80px;
+  margin: 10px; }
 
 .row-info {
   text-transform: uppercase; }
@@ -701,7 +706,7 @@ div.row-image img {
 
 .page-galeri div.row-image img, 
 .page-karikatur div.row-image img {
-  background-color: #F6F6F6; }
+  background-color: transparent; }
 
 div.view-jualan div.views-row div.row-date,
 div.view-lowongan div.views-row div.row-date {
@@ -782,6 +787,7 @@ div.views-row h3 {
 
 .page-karikatur div.view-content div.views-row, 
 .page-galeri div.view-content div.views-row {
+  background-color: #F6F6F6;
   display: inline-block;
   float: left;
   margin: 0 0 20px 20px;
@@ -789,6 +795,10 @@ div.views-row h3 {
   position: relative;
   vertical-align: baseline;
   width: 130px; }
+
+.page-karikatur div.view-content div.views-row:hover, 
+.page-galeri div.view-content div.views-row:hover {
+  background-color: #EEE;}
 
 .page-karikatur div.view-content div.views-row div.views-field-name, 
 .page-galeri div.view-content div.views-row div.views-field-name {
