@@ -29,9 +29,12 @@
         <?php print $fields['tid']->content; ?>
       </span>&nbsp;&nbsp;|&nbsp;&nbsp;
     <?php endif ?>
-    <span class='row-author'><?php print $fields['field_penulis_nid']->content; ?></span>&nbsp;&nbsp;|&nbsp;&nbsp;
-    <span class='row-date'><?php print $fields['created']->content; ?></span>
-    <span class='row-comment-count'><?php print $fields['comment_count']->content; ?></span>
+    <?php if($fields['created']->content): ?>
+        <span class='row-date'><?php print $fields['created']->content; ?></span>
+    <?php endif ?>
+    <?php if($fields['comment_count']->content): ?>
+        <span class='row-comment-count'><?php print $fields['comment_count']->content; ?></span>
+    <?php endif ?>
   </p>
   <h2 class='row-title'>
     <?php print $fields['title']->content; ?>      

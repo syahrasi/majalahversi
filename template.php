@@ -482,7 +482,10 @@ function majalahversi_preprocess_node(&$vars) {
       break;
       case 'foto':
         $vocab = $vocabulary[16];
-      break;          
+      break;
+      case 'penulis':
+        $vocab = $vocabulary[14];
+      break;
       default:
         $vocab = $vocabulary[4];
       break;
