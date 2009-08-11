@@ -379,6 +379,7 @@ div.attachment-before div.view-id-perusahaan div.view-content {
   overflow: hidden;
 } 
 
+div.view-subitem div.views-row,
 div.view-regulasi div.views-row,
 div.view-layananpublik div.views-row,  
 div.view-artikel div.views-row,
@@ -387,6 +388,7 @@ div.view-agenda div.views-row,
 div.view-jualan div.views-row {
   border-bottom: 1px solid #EEEEEE;
   margin-bottom: 20px; }
+div.view-subitem div.views-row-last,
 div.view-regulasi div.views-row-last,
 div.view-layananpublik div.views-row-last,  
 div.view-artikel div.views-row-last,
@@ -404,6 +406,7 @@ div.row-teaser div.read-more {
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     font-style: italic; }
+div.view-subitem div.views-row-last div.read-more,
 div.view-regulasi div.views-row-last div.read-more,
 div.view-layananpublik div.views-row-last div.read-more,  
 div.view-artikel div.views-row-last div.read-more,
