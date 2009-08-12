@@ -11,7 +11,7 @@
   <?php endif ?>
   <?php if($fields['title']->content): ?>
     <div class='row-galeri-info'>
-      <p><?php print $fields['title']->content; ?></p>
+    <div class='row-title'><?php print $fields['title']->content; ?></div>
       <?php if($fields['comment_count']->content): ?>
           <div class='row-comment-count'><?php print $fields['comment_count']->content; ?></div>
       <?php endif ?>
