@@ -577,43 +577,51 @@ h3.block-title {
   text-transform: uppercase;
   top: 0; }
 
-#block-views-issue-block_1 .block-title {
+#block-views-issue-block_1 .block-title,
+#block-views-issue2-block_1 .block-title {
   border-bottom: none;
 }
 
 #block-views-issue-block_1 div.views-row, 
+#block-views-issue2-block_1 div.views-row,
 #block-views-artikel-block_2 div.views-row {
   margin: 0;
   border-bottom: 1px solid #EEE; }
 
 #block-views-issue-block_1 div.views-row-last,
+#block-views-issue2-block_1 div.views-row-last,
 #block-views-artikel-block_2 div.views-row-last {
   border-bottom: 0; }
 
 #block-views-issue-block_1 div.views-row div.row-thumb img, 
+#block-views-issue2-block_1 div.views-row div.row-thumb img, 
 #block-views-artikel-block_2 div.views-row div.row-thumb img {
   margin-right: 10px; }
 
 #block-views-issue-block_1 div.views-row div.row-container, 
+#block-views-issue2-block_1 div.views-row div.row-container, 
 #block-views-artikel-block_2 div.views-row div.row-container {
   padding: 20px 20px 0 20px;
   float: left; }
 
 #block-views-issue-block_1 div.views-row div.row-textgroup, 
+#block-views-issue2-block_1 div.views-row div.row-textgroup, 
 #block-views-artikel-block_2 div.views-row div.row-textgroup {
   float: left;
   width: 180px; }
 
-div.view-id-issue h3 {
+div.view-id-issue h3,
+div.view-id-issue2 h3 {
   margin: 0;
-  padding: 20px;
+  padding: 10px 20px;
   color: #C00;
   font-style: italic;
-  font-size: 1em;
+  font-size: 1.5em;
   line-height: 1.5em;
   border-top: 1px solid #EEE;
   border-bottom: 1px solid #EEE; }
-  div.view-id-issue h3 p {
+  div.view-id-issue h3 p,
+  div.view-id-issue2 h3 p {
     padding: 0;
     margin: 0; }
 
