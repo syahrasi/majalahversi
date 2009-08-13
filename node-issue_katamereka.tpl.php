@@ -28,17 +28,17 @@
   <div class="content clear-block">
     <?php print $picture ?>
     <?php print $content ?>
+      <div id="katamereka">
+        <?php
+        $viewname = 'Issue';
+        $display_id = 'block_2';
+        $arg1 = $node->nid;
+        print views_embed_view($viewname, $display_id, $arg1);
+        ?>
+      </div>
     <?php if ($tags): ?>
       <span class="tags"><?php print $tags ?></span>
     <?php endif; ?>
-  </div>
-  <div id="katamereka">
-    <?php
-    $viewname = 'Issue';
-    $display_id = 'block_2';
-    $arg1 = $node->nid;
-    print views_embed_view($viewname, $display_id, $arg1);
-    ?>
   </div>
 </div>
 <?php
