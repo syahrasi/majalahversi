@@ -577,12 +577,16 @@ h3.block-title {
   text-transform: uppercase;
   top: 0; }
 
+#block-views-issue-block_1 .block-title {
+  border-bottom: none;
+}
 
 #block-views-issue-block_1 div.views-row, 
 #block-views-artikel-block_2 div.views-row {
   margin: 0;
   border-bottom: 1px solid #EEE; }
 
+#block-views-issue-block_1 div.views-row-last,
 #block-views-artikel-block_2 div.views-row-last {
   border-bottom: 0; }
 
@@ -607,6 +611,7 @@ div.view-id-issue h3 {
   font-style: italic;
   font-size: 1em;
   line-height: 1.5em;
+  border-top: 1px solid #EEE;
   border-bottom: 1px solid #EEE; }
   div.view-id-issue h3 p {
     padding: 0;
