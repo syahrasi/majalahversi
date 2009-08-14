@@ -29,6 +29,11 @@
         <?php print $fields['tid']->content; ?>
       </span>&nbsp;&nbsp;|&nbsp;&nbsp;
     <?php endif ?>
+    <?php if($fields['field_penulis_nid']->content): ?>
+      <span class='row-author'>
+        <?php print $fields['field_penulis_nid']->content; ?>
+      </span>&nbsp;&nbsp;|&nbsp;&nbsp;
+    <?php endif ?>
     <?php if($fields['created']->content): ?>
         <span class='row-date'><?php print $fields['created']->content; ?></span>
     <?php endif ?>
@@ -36,11 +41,21 @@
         <span class='row-comment-count'><?php print $fields['comment_count']->content; ?></span>
     <?php endif ?>
   </p>
+  <?php if($fields['title']->content): ?>
   <h2 class='row-title'>
     <?php print $fields['title']->content; ?>      
   </h2>
+  <?php endif ?>
+  <?php if($fields['teaser']->content || $fields['body']->content): ?>
   <div class='row-teaser'>
-    <?php print $fields['teaser']->content; ?><div class='read-more'><?php print $fields['view_node']->content; ?></div>
+    <?php print $fields['teaser']->content; ?>
+    <?php print $fields['body']->content; ?>
+    <?php if($fields['view_node']->content): ?>
+    <div class='read-more'>
+      <?php print $fields['view_node']->content; ?>
+    </div>
+    <?php endif ?>
+  <?php endif ?>
   </div>
 </div>
 
