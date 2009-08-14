@@ -1,7 +1,7 @@
 <div class='row-container'>
-  <?php if($fields['name']->content): ?>
+  <?php if($fields['tid']->content): ?>
     <div class='row-term'>
-      <?php print $fields['name']->content; ?>    
+      <?php print $fields['tid']->content; ?>    
     </div>
   <?php endif ?>  
   <?php if($fields['field_main_image_fid']->content): ?>
