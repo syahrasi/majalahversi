@@ -22,19 +22,27 @@
 ?>
 
 <div class='row-container'>
-  <div class='row-thumb'>
-    <?php print $fields['field_main_image_fid']->content; ?>    
-  </div>
+  <?php if($fields['field_main_image_fid']->content): ?>   
+      <div class='row-thumb'>
+      <?php print $fields['field_main_image_fid']->content; ?>    
+    </div>
+  <?php endif ?>
   <div class='row-textgroup'>
+  <?php if($fields['field_penulis_nid']->content): ?>
     <p class='row-info'>
       <span class='row-author'><?php print $fields['field_penulis_nid']->content; ?></span>
     </p>
+  <?php endif ?>
+  <?php if($fields['title']->content): ?>
     <h4 class='row-title'>
       <?php print $fields['title']->content; ?>      
     </h4>
+  <?php endif ?>
+  <?php if($fields['teaser']->content): ?>
     <div class='row-teaser'>
       <?php print $fields['teaser']->content; ?>
     </div>
+  <?php endif ?>
   </div>
 </div>
 
