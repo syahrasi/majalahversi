@@ -676,10 +676,12 @@ div.view-perusahaan .row-container {
   float: left;
   width: 100%; }
 
+.page-karikatur .row-container,
 .page-galeri .row-container {
   position: relative;
 }
 
+.page-karikatur .row-term,
 .page-galeri .row-term {
   padding: 5px;
   position: absolute;
@@ -687,14 +689,17 @@ div.view-perusahaan .row-container {
   top: 10px;
   right: 10px;
   background-color: #000; }
-  
+
+  .page-karikatur .row-term ul,  
   .page-galeri .row-term ul {
     margin: 0;
   }
+    .page-karikatur .row-term ul li,
     .page-galeri .row-term ul li{
     display: inline;
     list-style-type: none;
   }
+  .page-karikatur .row-term a,
   .page-galeri .row-term a {
     color: #FFF;
     opacity: 1;
