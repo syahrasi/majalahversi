@@ -416,6 +416,10 @@ div.view-perusahaan div.views-row-last div.read-more,
 div.view-agenda div.views-row-last div.read-more,
 div.view-jualan div.views-row-last div.read-more {
   margin-bottom: 0; }
+  
+.sdp-pengirim {
+  font-style: italic;
+}
     
 .fivestar-form-item {
   padding: 20px 0;

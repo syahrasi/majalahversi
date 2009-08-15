@@ -51,7 +51,7 @@
     <?php print $fields['teaser']->content; ?>
     <?php print $fields['body']->content; ?>
     <?php if($fields['field_name_value']->content): ?>
-      &nbsp;&nbsp;-&nbsp;&nbsp;<?php print $fields['field_name_value']->content; ?>     
+      &nbsp;&nbsp;-&nbsp;&nbsp;<span class='sdp-pengirim'><?php print $fields['field_name_value']->content; ?></span>
     <?php endif ?>
     <?php if($fields['view_node']->content): ?>
     <div class='read-more'>
