@@ -12,9 +12,7 @@
   <?php if($fields['title']->content): ?>
     <div class='row-galeri-info'>
     <div class='row-title'><?php print $fields['title']->content; ?></div>
-      <?php if($fields['comment_count']->content): ?>
-          <div class='row-comment-count'><?php print $fields['comment_count']->content; ?></div>
-      <?php endif ?>
+    <div class='row-comment-count'><?php print $fields['comment_count']->content; ?></div>
       <?php if($fields['value']->content): ?>
           <div class='row-rating'><?php print $fields['value']->content; ?></div>
       <?php endif ?>
