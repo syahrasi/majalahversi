@@ -50,6 +50,9 @@
   <div class='row-teaser'>
     <?php print $fields['teaser']->content; ?>
     <?php print $fields['body']->content; ?>
+    <?php if($fields['field_name_value']->content): ?>
+      &nbsp;&nbsp;-&nbsp;&nbsp;<?php print $fields['field_name_value']->content; ?>     
+    <?php endif ?>
     <?php if($fields['view_node']->content): ?>
     <div class='read-more'>
       <?php print $fields['view_node']->content; ?>
