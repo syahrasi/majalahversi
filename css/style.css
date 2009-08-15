@@ -511,33 +511,45 @@ div.view-jualan div.views-row-last div.read-more {
   margin: 0;
   padding: 5px; }
 
+#right-middle div.block,
 #content-middle-one div.block, 
 #content-middle-two div.block {
   background-color: #FFF;
   overflow: hidden;
   width: 100%; 
   /* float: left;*/ }
+  #right-middle div.block .content .views-row,
   #content-middle-one div.block .content .views-row, 
   #content-middle-two div.block .content .views-row {
     overflow: hidden;
     width: 100%; }
+#right-middle div.item-list ul, 
 #content-middle-one div.item-list ul, 
 #content-middle-two div.item-list ul {
   margin: 0;
   padding: 0 20px 20px 20px; }
 
+#right-middle div.item-list ul a, 
 #content-middle-one div.item-list ul a, 
 #content-middle-two div.item-list ul a {
   text-decoration: none; }
 
+#right-middle div.item-list ul a:hover,
 #content-middle-one div.item-list ul a:hover, 
 #content-middle-two div.item-list ul a:hover {
   background-color: #F6F6F6; }
 
+#right-middle div.item-list ul li, 
 #content-middle-one div.item-list ul li, 
 #content-middle-two div.item-list ul li {
   list-style-image: none;
   list-style-type: none; }
+
+#right-middle div.item-list ul li a, 
+#right-middle div.item-list ul li.leaf a {
+  border-bottom: 1px solid #EEE;
+  display: block;
+  padding: 5px 0 5px 10px; }
 
 #content-middle-one div.item-list ul li a, 
 #content-middle-one div.item-list ul li.leaf a {
