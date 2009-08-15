@@ -425,6 +425,13 @@ div.view-jualan div.views-row-last div.read-more {
   padding: 20px 0;
 }
 
+.view-footer {
+  margin-left: 20px;
+  background-color: #F6F6F6;
+  padding: 20px;
+  float: left;
+}
+
 #right {
   margin-top: 20px; }
   #right div.block {
