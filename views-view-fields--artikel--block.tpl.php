@@ -28,12 +28,13 @@
     </div>
   <?php endif ?>
   <div class='row-textgroup'>
-  <?php if($fields['field_penulis_nid']->content): ?>
+  <?php if($fields['field_penulis_nid']->content || $fields['created']->content): ?>
     <p class='row-info'>
       <span class='row-author'><?php print $fields['field_penulis_nid']->content; ?></span>
-      <?php if($fields['created']->content): ?>&nbsp;|&nbsp;
-      <span class='row-date'><?php print $fields['created']->content; ?></span>
+      <?php if($fields['field_penulis_nid']->content && $fields['created']->content): ?>
+        &nbsp;|&nbsp;
       <?php endif ?>
+      <span class='row-date'><?php print $fields['created']->content; ?></span>
     </p>
   <?php endif ?>
   <?php if($fields['title']->content): ?>
@@ -44,6 +45,9 @@
   <?php if($fields['teaser']->content): ?>
     <div class='row-teaser'>
       <?php print $fields['teaser']->content; ?>
+      <?php if($fields['view_node']->content): ?>
+        <div class='read-more'><?php print $fields['view_node']->content; ?></div>
+      <?php endif ?>
     </div>
   <?php endif ?>
   </div>
