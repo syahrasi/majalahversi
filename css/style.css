@@ -372,11 +372,12 @@ div.attachment-before div.view-id-perusahaan div.view-content {
   border-top: 5px solid #CCCCCC;
   background-color: #FFF;
   margin-bottom: 20px;
-  padding: 20px; }
+  padding: 20px; 
+  overflow: hidden;
+  }
 .page-galeri #content-content, 
 .page-karikatur #content-content {
   padding-left: 0;
-  overflow: hidden;
 } 
 
 div.view-latest-articles div.views-row,
