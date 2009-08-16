@@ -417,7 +417,9 @@ div.view-perusahaan div.views-row-last div.read-more,
 div.view-agenda div.views-row-last div.read-more,
 div.view-jualan div.views-row-last div.read-more {
   margin-bottom: 0; }
-  
+div.block div.row-teaser div.read-more {
+  text-align:right;
+  margin-bottom: 20px;}  
   
 div.content div.field-type-text {
   margin: 20px 0;
