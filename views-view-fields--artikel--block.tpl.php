@@ -31,6 +31,9 @@
   <?php if($fields['field_penulis_nid']->content): ?>
     <p class='row-info'>
       <span class='row-author'><?php print $fields['field_penulis_nid']->content; ?></span>
+      <?php if($fields['created']->content): ?>&nbsp;|&nbsp;
+      <span class='row-date'><?php print $fields['created']->content; ?></span>
+      <?php endif ?>
     </p>
   <?php endif ?>
   <?php if($fields['title']->content): ?>
