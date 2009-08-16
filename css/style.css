@@ -427,10 +427,16 @@ div.view-jualan div.views-row-last div.read-more {
 }
 
 .view-footer {
-  margin-left: 20px;
+  margin: 20px 0 0;
   background-color: #F6F6F6;
   padding: 20px;
   float: left;
+}
+
+.page-karikatur .view-footer,
+.page-galeri .view-footer {
+  margin-left: 20px;
+  margin-top: 0;
 }
 
 #right {
