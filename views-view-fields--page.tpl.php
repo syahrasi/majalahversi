@@ -27,12 +27,18 @@
     <?php if($fields['tid']->content): ?>
       <span class='row-term'>
         <?php print $fields['tid']->content; ?>
-      </span>&nbsp;&nbsp;|&nbsp;&nbsp;
+      </span>
+      <?php if($fields['tid']->content && $fields['field_penulis_nid']->content): ?>
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+      <?php endif ?>
     <?php endif ?>
     <?php if($fields['field_penulis_nid']->content): ?>
       <span class='row-author'>
         <?php print $fields['field_penulis_nid']->content; ?>
-      </span>&nbsp;&nbsp;|&nbsp;&nbsp;
+      </span>
+      <?php if($fields['field_penulis_nid']->content && $fields['created']->content): ?>
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+      <?php endif ?>
     <?php endif ?>
     <?php if($fields['created']->content): ?>
         <span class='row-date'><?php print $fields['created']->content; ?></span>
