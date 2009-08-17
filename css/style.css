@@ -842,18 +842,16 @@ div.view-header {
 div.views-row h3 {
   margin-bottom: .2em; }
 
-.page-karikatur div.view-content div.views-field-field-main-image-fid img, 
-.page-galeri div.view-content div.views-field-field-main-image-fid img {
+.view-galeri div.view-content div.views-field-field-main-image-fid img {
   background-color: #F6F6F6;
   border: 1px solid #CCC;
   padding: 9px; }
 
-.page-karikatur div.view-content div.views-field-field-main-image-fid a:hover img, 
-.page-galeri div.view-content div.views-field-field-main-image-fid a:hover img {
+.view-galeri div.view-content div.views-field-field-main-image-fid a:hover img {
   background-color: #CCC; }
 
-.page-karikatur div.view-content div.views-row, 
-.page-galeri div.view-content div.views-row {
+.view-galeri div.view-content div.views-row {
+  border: none;
   background-color: #F6F6F6;
   display: inline-block;
   float: left;
@@ -863,12 +861,10 @@ div.views-row h3 {
   vertical-align: baseline;
   width: 130px; }
 
-.page-karikatur div.view-content div.views-row:hover, 
-.page-galeri div.view-content div.views-row:hover {
+.view-galeri div.view-content div.views-row:hover {
   background-color: #EEE;}
 
-.page-karikatur div.view-content div.views-row div.views-field-name, 
-.page-galeri div.view-content div.views-row div.views-field-name {
+.view-galeri div.view-content div.views-row div.views-field-name {
   background-color: #000000;
   opacity: 0.8;
   padding: 4px;
@@ -877,20 +873,17 @@ div.views-row h3 {
   font-size: .8em;
   top: 0; }
 
-.page-karikatur div.attachment div.view-content div.views-row div.views-field-name, 
-.page-galeri div.attachment div.view-content div.views-row div.views-field-name {
+.view-galeri div.attachment div.view-content div.views-row div.views-field-name {
   background-color: #000000;
   opacity: 1;
   font-size: 1em; }
 
-.page-karikatur div.view-content div.views-row div.views-field-name a, 
-.page-galeri div.view-content div.views-row div.views-field-name a {
+.view-galeri div.view-content div.views-row div.views-field-name a {
   color: #FFF;
   font-weight: bold;
   text-transform: uppercase; }
 
-.page-karikatur div.attachment div.view-content div.views-row, 
-.page-galeri div.attachment div.view-content div.views-row {
+.view-galeri div.attachment div.view-content div.views-row {
   display: inline-block;
   float: left;
   margin: 0 0 20px 20px;
@@ -898,6 +891,11 @@ div.views-row h3 {
   position: relative;
   vertical-align: baseline;
   width: 580px; }
+
+.page-frontpage .view-galeri div.view-content div.views-row {
+  margin: 0;
+  position: static;
+  width: auto; }
 
 #hori-adv-one, 
 #hori-adv-two, 
