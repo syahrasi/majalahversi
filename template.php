@@ -489,6 +489,12 @@ function majalahversi_preprocess_node(&$vars) {
       case 'kontributor':
         $vocab = $vocabulary[14];
       break;
+      case 'layananpublik':
+        $vocab = $vocabulary[24];
+      break;
+      case 'regulasi':
+        $vocab = $vocabulary[23];
+      break;
       default:
         $vocab = $vocabulary[4];
       break;
