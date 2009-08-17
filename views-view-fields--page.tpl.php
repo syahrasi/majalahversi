@@ -48,14 +48,18 @@
     <?php endif ?>
   </p>
   <?php if($fields['title']->content): ?>
-  <h2 class='row-title'>
-    <?php print $fields['title']->content; ?>      
-  </h2>
+    <h2 class='row-title'>
+      <?php print $fields['title']->content; ?>      
+    </h2>
   <?php endif ?>
   <?php if($fields['teaser']->content || $fields['body']->content): ?>
   <div class='row-teaser'>
-    <?php print $fields['teaser']->content; ?>
-    <?php print $fields['body']->content; ?>
+    <?php if($fields['teaser']->content): ?>
+      <?php print $fields['teaser']->content; ?>
+    <?php endif ?>
+    <?php if($fields['body']->content): ?>
+      <?php print $fields['body']->content; ?>  
+    <?php endif ?>
     <?php if($fields['field_name_value']->content): ?>
       &nbsp;&nbsp;-&nbsp;&nbsp;<span class='sdp-pengirim'><?php print $fields['field_name_value']->content; ?></span>
     <?php endif ?>
@@ -64,8 +68,8 @@
       <?php print $fields['view_node']->content; ?>
     </div>
     <?php endif ?>
-  <?php endif ?>
   </div>
+  <?php endif ?>
 </div>
 
 
