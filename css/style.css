@@ -442,8 +442,6 @@ div.content .field-label {
     background-color: #FFF; }  
     #right div.block #masquerade-block-1 {
       padding: 20px; }
-    #right div.block div.content {
-      padding: 0 20px 20px; }
     #right div.block div.views-field-title {
       margin: 10px 20px;
       padding: 0;
@@ -454,6 +452,8 @@ div.content .field-label {
       padding: 0 20px 20px 20px; }
       #right div.block div.views-field-teaser p {
         margin: 0; }
+    #right div.block div.content {
+      padding: 0 20px 20px; }
     #right div.block-ad div.content {
       padding: 0;
     }
