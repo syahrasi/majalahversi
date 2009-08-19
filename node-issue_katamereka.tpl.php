@@ -28,7 +28,7 @@
   <div class="content clear-block">
     <?php print $picture ?>
     <?php print $content ?>
-      <div id="issue_embedded">
+      <div id="embedded-views">
         <?php
         $viewname = 'Issue';
         $display_id = 'block_2';

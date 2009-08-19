@@ -654,10 +654,10 @@ h3.block-title {
   float: left;
   width: 180px; }
  
-#issue_embedded div.views-row {
+#embedded-views div.views-row {
   overflow:hidden;
 }  
-#issue_embedded .row-textgroup {
+#embedded-views .row-textgroup {
   float: left;
   width: 440px;
 }
