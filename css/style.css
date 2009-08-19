@@ -401,17 +401,26 @@ div.row-teaser div.read-more {
 div.view-content div.views-row-last div.read-more {
   margin-bottom: 0; }
 
-#right div.block div.view-content div.views-summary-unformatted,
-#right-middle div.block div.view-content div.views-summary-unformatted,
-#right div.block div.view-content div.views-row,
-#right-middle div.block div.view-content div.views-row {
+div.block div.view-content div.views-row,
+div.block div.view-content div.views-summary-unformatted {
+/*#right div.block div.view-content div.views-summary-unformatted,*/
+/*#right-middle div.block div.view-content div.views-summary-unformatted,*/
+/*#right div.block div.view-content div.views-row,*/
+/*#right-middle div.block div.view-content div.views-row {*/
   padding: 5px;
   margin: 0;
 }
-  
+
+#block-views-belanja-block_1 div.view-content div.views-row,
+#block-views-artikel-block_5 div.view-content div.views-row,
+#block-views-perusahaan-block_1 div.view-content div.views-row {
+  padding: 0;
+  margin-top: 20px;
+}
+
 div.block div.row-teaser div.read-more {
   text-align:right;
-  margin-bottom: 20px;}  
+  margin-bottom: 0;}  
   
 div.content div.field-type-text {
   margin: 20px 0;
@@ -461,11 +470,17 @@ div.content .field-label {
       padding: 0 20px 20px 20px; }
       #right div.block div.views-field-teaser p {
         margin: 0; }
-    #right div.block div.content {
-      padding: 0 20px 20px; }
-    #right div.block-ad div.content {
-      padding: 0;
-    }
+        
+#right div.block div.content,
+#right-middle div.block div.content,
+#content-middle-one div.block div.content,
+#content-middle-two div.block div.content {
+  padding: 0 20px 20px; }
+  
+#right div.block-ad div.content,
+#right-middle div.block-ad div.content {
+  padding: 0;
+}
         
 #right ul.menu, 
 #right div.item-list ul {
@@ -546,7 +561,7 @@ div.content .field-label {
 #content-middle-one div.item-list ul, 
 #content-middle-two div.item-list ul {
   margin: 0;
-  padding: 0 20px 20px 20px; }
+  padding: 0; }
 
 #right-middle div.item-list ul a, 
 #content-middle-one div.item-list ul a, 
@@ -631,18 +646,26 @@ h3.block-title {
 
 #content-middle-one div.views-row div.row-container,
 #content-middle-two div.views-row div.row-container {
-  padding: 20px 20px 0 20px;
+  padding: 20px 0 0;
   float: left; }
 
 #content-middle-one div.views-row div.row-textgroup,
 #content-middle-two div.views-row div.row-textgroup {
   float: left;
   width: 180px; }
+ 
+#issue_embedded div.views-row {
+  overflow:hidden;
+}  
+#issue_embedded .row-textgroup {
+  float: left;
+  width: 440px;
+}
 
 div.view-id-issue h3,
 div.view-id-issue2 h3 {
   margin: 0;
-  padding: 10px 20px;
+  padding: 10px 0;
   color: #C00;
   font-style: italic;
   font-size: 1.5em;
