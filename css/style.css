@@ -902,6 +902,7 @@ div.views-row h3 {
 
 .page-frontpage .view-galeri div.view-content div.views-row {
   margin: 0;
+  padding: 0;
   position: static;
   width: auto; }
 
