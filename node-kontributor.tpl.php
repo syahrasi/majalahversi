@@ -29,7 +29,8 @@
     <?php print $picture ?>
     <?php print $content ?>
       <div id="embedded-views">
-        <?php
+      <h3><?php print $kontribusi ?> oleh <?php print $title ?></h3>
+      <?php
         $viewname = 'penulis';
         $display_id = 'block_2';
         $arg1 = $node->nid;

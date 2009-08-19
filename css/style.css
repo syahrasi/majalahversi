@@ -655,12 +655,15 @@ h3.block-title {
   width: 180px; }
  
 #embedded-views div.views-row {
-  overflow:hidden;
-}  
+  overflow:hidden; }  
 #embedded-views .row-textgroup {
   float: left;
-  width: 440px;
-}
+  width: 440px; }
+#embedded-views h3 {
+  border-top: 5px solid #CCC;
+  border-bottom: 1px solid #EEE;
+  margin: 0 0 20px;
+  padding: 10px 0; }
 
 div.view-id-issue h3,
 div.view-id-issue2 h3 {
@@ -752,8 +755,6 @@ div.view-agenda .row-thumb,
 div.view-perusahaan .row-thumb {
   width: 130px;
   margin-right: 20px; }
-
-
 
 .row-comment-count {
   color: #C00;

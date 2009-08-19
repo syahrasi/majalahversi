@@ -511,6 +511,24 @@ function majalahversi_preprocess_node(&$vars) {
       $vars['authors'] .= '</span>,&nbsp;';
     }
   }
+  if ($node->type == 'kontributor' && $node->taxonomy) {
+    foreach ($node->taxonomy as $k => $value) {
+      $k = $k;
+      switch ($k)
+      {
+        case '43':
+          $kontribusi = 'Kolom';
+        break;
+        case '44':
+          $kontribusi = 'Karikatur';
+        break;        
+        default:
+          $kontribusi = 'Artikel';
+        break;
+      }
+      $vars['kontribusi'] = $kontribusi;
+    }
+  }
 }
 
 
