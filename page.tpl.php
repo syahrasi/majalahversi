@@ -31,6 +31,11 @@
           <a href='<?php print base_path(); ?>user/register' class="popups-form-reload" title="Klik untuk daftar">Register</a>
         <?php } ?>
       </div>
+      <div id="feedbox" class="floatright">
+        <?php
+          print $feed_icons;
+        ?>
+      </div>
       <?php if (isset($secondary_links)) : ?>
         <div id="top-menu" class="span-16 last"><?php print theme('links', $secondary_links, array('id' => 'subnav', 'class' => 'links')) ?></div>
       <?php endif; ?>
@@ -157,11 +162,6 @@
       <?php if ($footer_message): ?>
         <div id="footer-message"><?php print $footer_message; ?></div>
       <?php endif; ?>
-      <div id="feedbox" class="floatright">
-        <?php
-          print $feed_icons;
-        ?>
-      </div>
     </div>
   <?php endif; ?>  
 
