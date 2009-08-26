@@ -1162,4 +1162,8 @@ div.more-link a {
         text-decoration: none; }
       #footer ul.menu a:hover {
         text-decoration: underline; }
+  #footer .copyright {
+    padding: 20px 20px 0;
+    color: #CCC;
+  }
       
