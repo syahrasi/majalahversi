@@ -481,6 +481,23 @@ div.content .field-label {
 #right-middle div.block-ad div.content {
   padding: 0;
 }
+
+#right #block-block-7 div.content {
+  background-color: #1D1D1D;
+  padding: 20px;
+  text-align: center;
+}
+        
+#block-block-7 div.content a.submit-content {
+  color: #CCC;
+  display: block;
+  padding: 5px 10px;
+  font-size: 1.2em;
+  border: 2px solid #666;
+  text-transform: capitalize;
+  background-color: #333;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px; }
         
 #right ul.menu, 
 #right div.item-list ul {
