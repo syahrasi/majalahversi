@@ -32,9 +32,11 @@
         <?php } ?>
       </div>
       <div id="feedbox" class="floatright">
-        <?php
+        <?php if($feed_icons) {
           print $feed_icons;
-        ?>
+        } else { ?>
+        <a href="/feed" class="feed-icon"><img src="/misc/feed.png" alt="Syndicate content" title="" height="16" width="16"></a>
+        <?php }?>      
       </div>
       <?php if (isset($secondary_links)) : ?>
         <div id="top-menu" class="span-16 last"><?php print theme('links', $secondary_links, array('id' => 'subnav', 'class' => 'links')) ?></div>
