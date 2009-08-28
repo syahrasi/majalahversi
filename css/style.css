@@ -450,7 +450,7 @@ div.content .field-label {
 
 .views-summary-unformatted .count-number {
   margin: 0 0 0 4px;
-  background-color: #CCC;
+  background-color: #666;
   color: #FFF;
   font-size: .8em;
   vertical-align: 1px;
