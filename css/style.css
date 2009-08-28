@@ -448,6 +448,17 @@ div.content .field-label {
   float: left;
 }
 
+.views-summary-unformatted .count-number {
+  margin: 0 0 0 4px;
+  background-color: #CCC;
+  color: #FFF;
+  font-size: .8em;
+  vertical-align: 1px;
+  padding: 2px 8px;  
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px; 
+}
+
 .page-karikatur .view-footer,
 .page-galeri .view-footer {
   margin-left: 20px;
