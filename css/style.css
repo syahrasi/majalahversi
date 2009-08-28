@@ -1109,20 +1109,28 @@ ul.jquerymenu li.parent span.open {
 ul.custom-pager li {
   margin: 10px 0; }
 ul.pager li.pager-current {
-  background-color: #111; }
+  background-color: #999; }
 ul.pager a {
-  border: 0; }
+  border: 0; 
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px; 
+  padding: 2px 8px;
+  }
   ul.pager a:link, 
   ul.pager a:visited {
     color: #111;
     background-color: #FFF; }
 ul.pager li.pager-current {
-  border: 0; }
+  border: 0; 
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px; 
+  padding: 2px 8px;
+  }
 ul.pager a:hover, 
 ul.pager a:focus, 
 ul.pager a:active {
   border: 0;
-  background-color: #111;
+  background-color: #999;
   color: #FFF; }
 div.more-link {
   padding: 20px 0 0;
