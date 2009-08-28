@@ -24,11 +24,19 @@
     <?php print $fields['field_main_image_fid']->content; ?>    
   </div>
   <p class='row-info'>
+    <?php if($fields['type']->content): ?>
+      <span class='row-term'>
+        <?php print $fields['type']->content; ?>
+      </span>
+      <?php if(($fields['type']->content && $fields['tid']->content) || ($fields['type']->content && $fields['created']->content)): ?>
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+      <?php endif ?>
+    <?php endif ?>
     <?php if($fields['tid']->content): ?>
       <span class='row-term'>
         <?php print $fields['tid']->content; ?>
       </span>
-      <?php if($fields['tid']->content && $fields['field_penulis_nid']->content): ?>
+      <?php if(($fields['tid']->content && $fields['field_penulis_nid']->content) || ($fields['tid']->content && $fields['created']->content)): ?>
         &nbsp;&nbsp;|&nbsp;&nbsp;
       <?php endif ?>
     <?php endif ?>
