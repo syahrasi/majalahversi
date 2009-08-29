@@ -584,6 +584,7 @@ div.content .field-label {
   #content-middle-one div.block .content .views-row, 
   #content-middle-two div.block .content .views-row {
     overflow: hidden;
+    padding: 0;
     width: 100%; }
 #right-middle div.item-list ul, 
 #content-middle-one div.item-list ul, 
