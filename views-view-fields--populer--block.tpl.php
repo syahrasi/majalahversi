@@ -4,10 +4,7 @@
 <?php if($fields['comment_count']->content): ?>
   <span class="count-number"><?php print $fields['comment_count']->content; ?></span>
 <?php endif ?>
-<?php if($fields['field_name_value']->content): ?>
-  &nbsp;&nbsp;-&nbsp;&nbsp;<span class='sdp-pengirim'><?php print $fields['field_name_value']->content; ?></span>
-<?php endif ?>
-<?php if($fields['field_penulis_nid']->content): ?>
-  &nbsp;&nbsp;-&nbsp;&nbsp;<span class='sdp-pengirim'><?php print $fields['field_penulis_nid']->content; ?></span>
+<?php if($fields['totalcount']->content): ?>
+  <span class="count-number"><?php print $fields['totalcount']->content; ?></span>
 <?php endif ?>
 
