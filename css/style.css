@@ -455,7 +455,7 @@ div.content .field-label {
   float: left;
 }
 
-.views-summary-unformatted .count-number {
+span.count-number {
   margin: 0 0 0 4px;
   background-color: #666;
   color: #FFF;
