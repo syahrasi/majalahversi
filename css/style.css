@@ -1112,6 +1112,9 @@ div.box {
   padding: 20px 0; }
   div.box h3 {
     margin-bottom: 0; }
+.page-search div.box {
+  margin-bottom: 20px;
+}
 
 h3#comment-number {
   border: none;
