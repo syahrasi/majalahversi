@@ -1120,6 +1120,10 @@ div.box {
   margin-bottom: 20px;
 }
 
+span.comment-author {
+  text-transform: capitalize;
+}
+
 h3#comment-number {
   border: none;
   margin: 0px;
