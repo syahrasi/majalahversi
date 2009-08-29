@@ -440,7 +440,9 @@ function majalahversi_trim_text($text, $length = 150) {
 
 function majalahversi_preprocess_node(&$vars) {
   $node = $vars['node'];
-  $vars['date'] = format_date($node->created, 'custom', 'j M Y');
+  if ($node->type != 'page') {
+    $vars['date'] = format_date($node->created, 'custom', 'j M Y');
+  }
   // If we have any terms...
   if ($node->taxonomy) {
     // Let's iterate through each term.

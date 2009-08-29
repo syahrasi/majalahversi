@@ -4,7 +4,7 @@
 <?php if ($page == 0): ?>
   <h2><a href="<?php print $node_url ?>" title="<?php print $title ?>"><?php print $title ?></a></h2>
 <?php endif; ?>
-<?php if ($authors || $date): ?>
+<?php if ($terms): ?>
   <p class="node-submit-info">
   <?php if ($authors): ?>
     Oleh:&nbsp;<?php print $authors ?>
