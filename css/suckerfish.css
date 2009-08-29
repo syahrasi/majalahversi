@@ -69,6 +69,7 @@ http://www.alistapart.com/articles/horizdropdowns
   text-decoration: none;
   color: #FFF;
   border-top: 1px solid #999;
+  text-shadow:1px 1px 1px rgba(0, 0, 0, 0.6);
 }
 
 #suckerfishmenu	 li {
@@ -133,7 +134,7 @@ http://www.alistapart.com/articles/horizdropdowns
 #suckerfishmenu	 ul.menu li ul a:hover {
   background: #757575;
   text-decoration: none;
-  color:#313131;
+  color:#FFF;
 }
 
 #suckerfishmenu	 ul.menu li li.expanded ul.menu a {
