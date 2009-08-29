@@ -32,7 +32,7 @@
     <p class='row-info'>
       <span class='row-author'><?php print $fields['field_penulis_nid']->content; ?></span>
       <?php if($fields['field_penulis_nid']->content && $fields['created']->content): ?>
-        &nbsp;|&nbsp;
+      &nbsp;&bull;&nbsp;
       <?php endif ?>
       <span class='row-date'><?php print $fields['created']->content; ?></span>
     </p>

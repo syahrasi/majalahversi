@@ -29,7 +29,7 @@
         <?php print $fields['type']->content; ?>
       </span>
       <?php if(($fields['type']->content && $fields['tid']->content) || ($fields['type']->content && $fields['created']->content)): ?>
-        &nbsp;&nbsp;|&nbsp;&nbsp;
+        &nbsp;&nbsp;&bull;&nbsp;&nbsp;
       <?php endif ?>
     <?php endif ?>
     <?php if($fields['tid']->content): ?>
@@ -37,7 +37,7 @@
         <?php print $fields['tid']->content; ?>
       </span>
       <?php if(($fields['tid']->content && $fields['field_penulis_nid']->content) || ($fields['tid']->content && $fields['created']->content)): ?>
-        &nbsp;&nbsp;|&nbsp;&nbsp;
+        &nbsp;&nbsp;&bull;&nbsp;&nbsp;
       <?php endif ?>
     <?php endif ?>
     <?php if($fields['field_penulis_nid']->content): ?>
@@ -45,7 +45,7 @@
         <?php print $fields['field_penulis_nid']->content; ?>
       </span>
       <?php if($fields['field_penulis_nid']->content && $fields['created']->content): ?>
-        &nbsp;&nbsp;|&nbsp;&nbsp;
+        &nbsp;&nbsp;&bull;&nbsp;&nbsp;
       <?php endif ?>
     <?php endif ?>
     <?php if($fields['created']->content): ?>
@@ -69,7 +69,7 @@
       <?php print $fields['body']->content; ?>  
     <?php endif ?>
     <?php if($fields['field_name_value']->content): ?>
-      &nbsp;&nbsp;-&nbsp;&nbsp;<span class='sdp-pengirim'><?php print $fields['field_name_value']->content; ?></span>
+      &nbsp;&nbsp;&mdash;&nbsp;&nbsp;<span class='sdp-pengirim'><?php print $fields['field_name_value']->content; ?></span>
     <?php endif ?>
     <?php if($fields['view_node']->content): ?>
     <div class='read-more'>
