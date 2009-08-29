@@ -873,15 +873,21 @@ div.view-header {
 div.views-row h3 {
   margin-bottom: .2em; }
 
-.view-galeri div.view-content div.views-field-field-main-image-fid img {
+.view-galeri div.view-content div.views-field-field-main-image-fid img,
+.view-tag-foto div.view-content div.views-field-field-main-image-fid img,
+.view-tag-karikatur div.view-content div.views-field-field-main-image-fid img {
   background-color: #F6F6F6;
   border: 1px solid #CCC;
   padding: 9px; }
 
-.view-galeri div.view-content div.views-field-field-main-image-fid a:hover img {
+.view-galeri div.view-content div.views-field-field-main-image-fid a:hover img,
+.view-tag-foto div.view-content div.views-field-field-main-image-fid a:hover img,
+.view-tag-karikatur div.view-content div.views-field-field-main-image-fid a:hover img {
   background-color: #CCC; }
 
-.view-galeri div.view-content div.views-row {
+.view-galeri div.view-content div.views-row,
+.view-tag-foto div.view-content div.views-row,
+.view-tag-karikatur div.view-content div.views-row {
   border: none;
   background-color: #F6F6F6;
   display: inline-block;
@@ -892,10 +898,14 @@ div.views-row h3 {
   vertical-align: baseline;
   width: 130px; }
 
-.view-galeri div.view-content div.views-row:hover {
+.view-galeri div.view-content div.views-row:hover,
+.view-tag-foto div.view-content div.views-row:hover,
+.view-tag-karikatur div.view-content div.views-row:hover {
   background-color: #EEE;}
 
-.view-galeri div.view-content div.views-row div.views-field-name {
+.view-galeri div.view-content div.views-row div.views-field-name,
+.view-tag-foto div.view-content div.views-row div.views-field-name,
+.view-tag-karikatur div.view-content div.views-row div.views-field-name {
   background-color: #000000;
   opacity: 0.8;
   padding: 4px;
@@ -909,7 +919,9 @@ div.views-row h3 {
   opacity: 1;
   font-size: 1em; }
 
-.view-galeri div.view-content div.views-row div.views-field-name a {
+.view-galeri div.view-content div.views-row div.views-field-name a,
+.view-tag-foto div.view-content div.views-row div.views-field-name a,
+.view-tag-karikatur div.view-content div.views-row div.views-field-name a {
   color: #FFF;
   font-weight: bold;
   text-transform: uppercase; }
