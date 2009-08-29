@@ -61,6 +61,7 @@ http://www.alistapart.com/articles/horizdropdowns
   background: #1d1d1d;
   color: #CCC ;
   border-top: 1px solid #333;
+  text-shadow:1px 1px 1px rgba(0, 0, 0, 0.6);
 }
 
 #suckerfishmenu	 a:hover {

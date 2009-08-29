@@ -180,6 +180,7 @@ span.tags ul li a {
 
 #user-info {
   color: #999;
+  text-shadow:1px 1px 1px rgba(0, 0, 0, 0.6);
   margin-bottom: 10px;
   margin-left: 20px;
   margin-top: 10px; }
@@ -223,6 +224,7 @@ span.tags ul li a {
     margin-bottom: 20px; }
   #featured h2 {
     color: #CCC;
+    text-shadow:1px 1px 1px rgba(0, 0, 0, 0.6);
     padding-bottom: 20px; }
     #featured h2 a {
       color: #999; }
@@ -244,6 +246,10 @@ span.tags ul li a {
     width: 580px; }
   #featured div.content img {
     margin-bottom: 0; }
+    
+#featured h4.row-title {
+  text-shadow:1px 1px 1px rgba(0, 0, 0, 0.6);
+}
 
 #views_slideshow_main_1 {
   background-color: #1D1D1D;
@@ -458,6 +464,7 @@ div.content .field-label {
   padding: 2px 8px;  
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px; 
+  text-shadow:1px 1px 1px rgba(0, 0, 0, 0.6);
 }
 
 .page-karikatur .view-footer,
@@ -501,6 +508,7 @@ div.content .field-label {
 }
         
 #block-block-7 div.content a.submit-content {
+  text-shadow:1px 1px 1px rgba(0, 0, 0, 0.6);
   color: #CCC;
   display: block;
   padding: 5px 10px;
@@ -977,7 +985,8 @@ div#container div.no-bottom-margin div.block {
   #section h2 {
     color: #FFF;
     margin: 40px 20px 40px 20px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    text-shadow:1px 1px 1px rgba(0, 0, 0, 0.6); }
 
 #search-box {
   padding: 20px 0 0 0; }
@@ -1184,6 +1193,7 @@ div.more-link a {
       color: #CCC;
       border-right: 1px solid #CCC;
       display: block;
+      text-shadow:1px 1px 1px rgba(0, 0, 0, 0.6);
       padding: 0 10px; }
       #footer ul.menu a:link, 
       #footer ul.menu a:visited {
@@ -1193,5 +1203,6 @@ div.more-link a {
   #footer .copyright {
     padding: 23px 20px 0;
     color: #CCC;
+    text-shadow:1px 1px 1px rgba(0, 0, 0, 0.6);
   }
       
