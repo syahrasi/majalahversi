@@ -863,6 +863,10 @@ div.view-lowongan div.views-row:hover {
 .views-exposed-widget input {
   width: 130px; }
 
+input.text, input.title, textarea, select {
+  padding:0.2em;
+}
+
 div.view-empty {
   background-color: #F6F6F6;
   padding: 20px;
