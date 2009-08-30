@@ -792,7 +792,7 @@ div.view-perusahaan .row-thumb {
 
 .row-comment-count {
   color: #C00;
-  background: transparent url(../images/bg_comment_cloud.png) no-repeat scroll 50% 10%;
+  background: transparent url(../images/bg_comment_cloud.png) no-repeat scroll 50% 30%;
   font-size: .8em;
   font-weight: bold;
   padding: 5px 20px 10px; }
