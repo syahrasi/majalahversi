@@ -442,6 +442,8 @@ function majalahversi_preprocess_node(&$vars) {
   $node = $vars['node'];
   if ($node->type != 'page') {
     $vars['date'] = format_date($node->created, 'custom', 'j M Y');
+  } else {
+    $vars['date'] = '';
   }
   // If we have any terms...
   if ($node->taxonomy) {
