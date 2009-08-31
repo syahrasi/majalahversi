@@ -36,6 +36,9 @@
 
   <div class="content clear-block">
     <?php print $picture ?>
+    <?php if ($style_teaser_differently): ?>
+      <div class="node-summary"><?php print $teaser; ?></div>
+    <?php endif; ?>
     <?php print $content ?>
     <?php if ($tags): ?>
       <span class="tags"><?php print $tags ?></span>

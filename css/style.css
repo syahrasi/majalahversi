@@ -1036,6 +1036,10 @@ div.node .terms .links li {
   padding: 0 0 0 10px;
 }
 
+.node-summary {
+  font-style: italic;
+}
+
 div.views-row-last div.node {
   margin-bottom: 0; }
 

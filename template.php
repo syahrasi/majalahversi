@@ -533,6 +533,21 @@ function majalahversi_preprocess_node(&$vars) {
       $vars['kontribusi'] = $kontribusi;
     }
   }
+  // we like to display teasers on the node view pages in a different style,
+  // but only if they were NOT set to "show summary on full view" (which seems
+  // backward, but the implication with that checkbox is that the teaser is
+  // PART of the node's body, instead of an actual summary of the entire
+  // node's body). if a node's unbuilt body starts with <!--break-->, then
+  // a teaser has been manually set, and "show summary" is not checked.
+  if ($vars['page'] == TRUE) { // only do this on full page views.
+    $node = node_load($vars['nid']); // we reload the node because
+    // by the time it gets here <!--break--> has already been filtered out.
+    // this if logic stolen from node.module's node_teaser_include_verify().
+    if (strpos($node->body, '<!--break-->') === 0) {
+      $vars['style_teaser_differently'] = TRUE;
+      $vars['teaser'] = check_markup($node->teaser, $node->format, FALSE);
+    }
+  }
 }
 
 

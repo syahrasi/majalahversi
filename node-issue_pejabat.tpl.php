@@ -27,6 +27,9 @@
 
   <div class="content clear-block">
     <?php print $picture ?>
+    <?php if ($style_teaser_differently): ?>
+      <div class="node-summary"><?php print $teaser; ?></div>
+    <?php endif; ?>
     <?php print $content ?>
       <div id="embedded-views">
         <?php
