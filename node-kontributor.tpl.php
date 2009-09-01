@@ -4,15 +4,15 @@
 <?php if ($page == 0): ?>
   <h2><a href="<?php print $node_url ?>" title="<?php print $title ?>"><?php print $title ?></a></h2>
 <?php endif; ?>
-<?php if ($authors): ?>
-  <p class="node-submit-info">
+<?php if ($date || $authors): ?>
+  <div class="node-submit-info">
   <?php if ($authors): ?>
-    Oleh:&nbsp;<?php print $authors ?>
+    <?php print $authors ?>
   <?php endif; ?>
   <?php if ($terms): ?>
-    <span class="terms"><?php print $terms ?></span>
+    <?php print $terms ?>
   <?php endif; ?>
-  </p>
+  </div>
 <?php endif; ?>
 <?php if ($submitted): ?>
   <div class="meta">

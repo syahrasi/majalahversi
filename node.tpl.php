@@ -5,17 +5,17 @@
   <h2><a href="<?php print $node_url ?>" title="<?php print $title ?>"><?php print $title ?></a></h2>
 <?php endif; ?>
 <?php if ($date || $authors): ?>
-  <p class="node-submit-info">
+  <div class="node-submit-info">
   <?php if ($authors): ?>
-    Oleh:&nbsp;<?php print $authors ?>
+    <?php print $authors ?>
   <?php endif; ?>
   <?php if ($date): ?>
-    <span class="post-date"><?php print $date ?></span>
+    <span class="post-date"><?php print $date ?></span>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
   <?php endif; ?>
   <?php if ($terms): ?>
-    <span class="terms"><?php print $terms ?></span>
+    <?php print $terms ?>
   <?php endif; ?>
-  </p>
+  </div>
 <?php endif; ?>
 <?php if ($submitted): ?>
   <div class="meta">

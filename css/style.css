@@ -1061,10 +1061,14 @@ div.node .categories ul {
     letter-spacing: .5em;
     color: #C00; }
 
-p.node-submit-info {
+div.node-submit-info {
   color: #C00; 
   padding: 0 0 5px;
-  border-bottom: 1px solid #EEE; }
+  border-bottom: 1px solid #EEE; 
+  margin-bottom: 20px; }
+  div.node-submit-info ul.links {
+    display:inline;
+  }
 
 div.terms {
   text-transform: uppercase; }

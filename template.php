@@ -512,7 +512,7 @@ function majalahversi_preprocess_node(&$vars) {
     foreach ($node->field_penulis as $author) {
       $vars['authors'] .= '<span class="author">';
       $vars['authors'] .= $author['view'];
-      $vars['authors'] .= '</span>,&nbsp;';
+      $vars['authors'] .= '</span>&nbsp;&nbsp;&bull;&nbsp;&nbsp;';
     }
   }
   if ($node->type == 'kontributor' && $node->taxonomy) {
