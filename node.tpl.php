@@ -9,9 +9,15 @@
   <?php if ($authors): ?>
     <?php print $authors ?>
   <?php endif; ?>
+  <?php if($authors && $date): ?>
+    &nbsp;&nbsp;&bull;&nbsp;&nbsp;
+  <?php endif ?>
   <?php if ($date): ?>
-    <span class="post-date"><?php print $date ?></span>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+    <span class="post-date"><?php print $date ?></span>
   <?php endif; ?>
+  <?php if($date && $terms): ?>
+    &nbsp;&nbsp;&bull;&nbsp;&nbsp;
+  <?php endif ?>
   <?php if ($terms): ?>
     <?php print $terms ?>
   <?php endif; ?>
@@ -34,9 +40,14 @@
     <?php if ($tags): ?>
       <span class="tags"><?php print $tags ?></span>
     <?php endif; ?>
+    <?php $block = module_invoke('views' ,'block', 'view', 'related_by_tags-block_1'); ?>
+      <?php if($block): ?>
+      <div id="embedded-views">
+        <h3>Konten Terkait</h3>
+        <?php print $block['content']; ?>
+      </div>
+      <?php endif ?>
   </div>
-
-
 </div>
 <?php
   if ($links) {

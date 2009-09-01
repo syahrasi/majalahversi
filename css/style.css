@@ -706,7 +706,19 @@ h3.block-title {
   border-bottom: 1px solid #EEE;
   margin: 0 0 20px;
   padding: 10px 0; }
+#embedded-views .view-content h3 {
+  font-size: 1.2em;
+  border-top: none;
+  border-bottom: none;
+  margin: 0 0 5px;
+  padding: 0; }
+#embedded-views .view-content .block ul, ul.menu, .item-list ul {
+  margin-bottom: 10px;
+}
 
+#links_related_endnotes h2 {
+  font-size: 1.5em;
+}
 div.view-id-issue h3,
 div.view-id-issue2 h3 {
   margin: 0;

@@ -43,6 +43,13 @@
     <?php if ($tags): ?>
       <span class="tags"><?php print $tags ?></span>
     <?php endif; ?>
+    <?php $block = module_invoke('views' ,'block', 'view', 'related_by_tags-block_1'); ?>
+      <?php if($block): ?>
+      <div id="embedded-views">
+        <h3>Konten Terkait</h3>
+        <?php print $block['content']; ?>
+      </div>
+      <?php endif ?>
   </div>
 <?php } ?>
 
