@@ -39,6 +39,10 @@ div.container {
   width: 42px;
   z-index: 100000; }
 
+.popups-box {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px; }
+
 h1, h2, h3, h4 {
   font-family: 'Georgia', 'Times New Roman', serif; }
 
