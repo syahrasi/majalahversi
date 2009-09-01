@@ -413,7 +413,7 @@ div.block div.view-content div.views-summary-unformatted {
 /*#right-middle div.block div.view-content div.views-summary-unformatted,*/
 /*#right div.block div.view-content div.views-row,*/
 /*#right-middle div.block div.view-content div.views-row {*/
-  padding: 5px;
+  padding: 5px 0 5px 10px;
   margin: 0;
 }
 
