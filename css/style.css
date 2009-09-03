@@ -971,6 +971,34 @@ div.views-row h3 {
   position: static;
   width: auto; }
 
+.page-node #center .page-suara-main {
+  background-color:transparent;
+  border-top: none;
+  margin-bottom: 0;
+  overflow:hidden;
+  padding:0;
+}
+.page-suara-main .block {
+  background-color: #FFF;
+}
+.page-suara-main .block .content {
+  padding: 0 20px 20px;
+}
+.page-suara-main .block div.view-content div.views-row {
+  margin:0;
+  padding: 20px 0;
+}
+.page-suara-main #content-middle-one {
+  margin-left: 0;
+}
+.page-suara-main #content-middle-two {
+  margin-right: 0;
+}
+
+.page-suara-main .node-links {
+  display: none;
+}
+
 #hori-adv-one, 
 #hori-adv-two, 
 #hori-adv-three {
