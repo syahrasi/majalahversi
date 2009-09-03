@@ -47,9 +47,10 @@
       <?php print $fields['title']->content; ?>      
     </h4>
   <?php endif ?>
-  <?php if($fields['teaser']->content): ?>
+  <?php if($fields['teaser']->content || $fields['body']->content): ?>
     <div class='row-teaser'>
       <?php print $fields['teaser']->content; ?>
+      <?php print $fields['body']->content; ?>
       <?php if($fields['view_node']->content): ?>
         <div class='read-more'><?php print $fields['view_node']->content; ?></div>
       <?php endif ?>
