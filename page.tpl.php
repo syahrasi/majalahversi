@@ -63,12 +63,12 @@
     <?php endif; ?>
   </div>
   
-  <!--
+
   <?php if ($breadcrumb): ?>
     <div id="breadcrumb" class="floatleft">
       <?php print $breadcrumb; ?>
     </div> <!-- /#breadcrumb -->
-  <?php endif; ?> -->
+  <?php endif; ?>
   
   
   <?php if ($featured): ?>
