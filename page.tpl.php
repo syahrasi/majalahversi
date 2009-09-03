@@ -61,16 +61,14 @@
         <?php print $suckerfishmenu; ?>
       </div> <!-- /#suckerfishmenu -->
     <?php endif; ?>
+    <?php if ($breadcrumb): ?>
+      <div id="breadcrumb" class="floatleft">
+        <?php print $breadcrumb; ?>
+      </div> <!-- /#breadcrumb -->
+    <?php endif; ?>
   </div>
   
 
-  <?php if ($breadcrumb): ?>
-    <div id="breadcrumb" class="floatleft">
-      <?php print $breadcrumb; ?>
-    </div> <!-- /#breadcrumb -->
-  <?php endif; ?>
-  
-  
   <?php if ($featured): ?>
     <div id="featured" class="floatleft">
       <?php print $featured; ?>

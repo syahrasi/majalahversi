@@ -105,6 +105,7 @@ div.block {
 
 #header {
   margin: 0;
+  background-color: #1D1D1D;
   width: 980px; }
 
 #logo {
@@ -211,13 +212,18 @@ span.tags ul li a {
   width: 980px; }
 
 #breadcrumb {
+  padding: 0;
+  margin: 0 20px;
   background-color: #1D1D1D;
+  border-bottom: 1px solid #333;
   color: #FFF;
   text-transform: uppercase;
-  width: 980px; }
+  width: 940px; }
   #breadcrumb div.breadcrumb {
+    border-bottom: 1px solid #111;
+    text-shadow:1px 1px 1px rgba(0, 0, 0, 0.6);
     margin: 0;
-    padding: 20px; }
+    padding: 20px 0 10px; }
 
 #featured {
   border-bottom: 1px solid #FFF;
@@ -1032,7 +1038,7 @@ div#container div.no-bottom-margin div.block {
   width: 980px; }
   #section h2 {
     color: #FFF;
-    margin: 40px 20px 40px 20px;
+    margin: 20px 20px;
     text-transform: uppercase;
     text-shadow:1px 1px 1px rgba(0, 0, 0, 0.6); }
 
