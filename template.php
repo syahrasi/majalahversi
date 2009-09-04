@@ -476,7 +476,7 @@ function majalahversi_preprocess_node(&$vars) {
         $vocab = $vocabulary[18];
       break;
       case 'lowongan':
-        $vocab = $vocabulary[18];
+        $vocab = $vocabulary[26];
       break;
       case 'agenda':
         $vocab = $vocabulary[9];
@@ -484,7 +484,7 @@ function majalahversi_preprocess_node(&$vars) {
       case 'iklan':
         $vocab = $vocabulary[10];
       break;
-      case 'foto':
+      case 'galeri':
         $vocab = $vocabulary[16];
       break;
       case 'karikatur':
