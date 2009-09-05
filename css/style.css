@@ -712,7 +712,7 @@ h3.block-title {
 #embedded-views h3 {
   border-top: 5px solid #CCC;
   border-bottom: 1px solid #EEE;
-  margin: 0 0 20px;
+  margin: 20px 0 20px;
   padding: 10px 0; }
 #embedded-views .view-content h3 {
   font-size: 1.2em;
