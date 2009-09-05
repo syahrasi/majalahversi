@@ -440,7 +440,8 @@ div.block div.row-teaser div.read-more {
   text-align:right;
   margin-bottom: 0;}  
   
-div.content div.field-type-text {
+div.content div.field-type-text,
+div.content div.field-type-nodereference {
   margin: 20px 0;
 }
 
