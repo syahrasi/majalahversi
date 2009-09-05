@@ -1158,9 +1158,9 @@ div.comment span.new {
   color: #FFF;
   display: block;
   padding: 4px;
-  position: absolute;
-  right: -33px;
-  top: -5px; }
+/*  position: absolute;*/
+/*  right: -20px;*/
+/*  top: -5px; }*/}
 
 #comment-form, 
 #filter-admin-format-form {
