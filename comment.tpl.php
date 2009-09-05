@@ -30,6 +30,8 @@
 
     <?php if ($links): ?>
       <div class="links"><?php print $links ?></div>
+    <?php else: ?>
+      <div class="links"><?php print flag_create_link('report_comment', $comment->cid); ?></div>
     <?php endif; ?>
   </div>
 </div>

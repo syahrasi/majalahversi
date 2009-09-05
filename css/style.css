@@ -1132,7 +1132,7 @@ div.comment-content {
   padding: 0;
   position: relative;
   width: 465px; }
-  div.comment-content ul.links {
+  div.comment-content div.links {
     border-top: 1px solid #EEE;
     padding: 10px 0; }
 div.preview div.comment-content {
