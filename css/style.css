@@ -173,7 +173,7 @@ ul.secondary li a {
   -webkit-border-radius: 20px; }
 
 span.tags ul {
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
 span.tags ul li a {
