@@ -1176,7 +1176,8 @@ div.box {
   padding: 20px 0; }
   div.box h3 {
     margin-bottom: 0; }
-.page-search div.box {
+.page-search div.box,
+.page-search404 div.box {
   margin-bottom: 20px;
 }
 
