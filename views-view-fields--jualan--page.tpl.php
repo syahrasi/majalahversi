@@ -1,10 +1,10 @@
 <div class='row-date'>
 <?php 
-  if ($fields['field_status_value']->content) {
+  if ($fields['field_status_value']->content == "OPEN") {
     print $fields['created']->content;
   } else {
     print 'CLOSED';    
-  }
+  }    
 ?>
 </div>
 <div class='row-container'>
