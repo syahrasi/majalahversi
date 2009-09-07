@@ -418,7 +418,8 @@ div.row-teaser div.read-more {
   margin-bottom: 20px;}
   div.read-more a {
     padding: 3px 10px;
-    background-color: #EEEEEE;
+    background-color: #999;
+    color: #FFF;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     font-style: italic; }
