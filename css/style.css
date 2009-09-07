@@ -1053,7 +1053,7 @@ div#container div.no-bottom-margin div.block {
   #section h2 {
     color: #FFF;
     margin: 20px 20px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-shadow:1px 1px 1px rgba(0, 0, 0, 0.6); }
 
 #search-box {
