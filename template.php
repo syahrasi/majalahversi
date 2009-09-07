@@ -146,6 +146,9 @@ function phptemplate_preprocess_page(&$vars) {
     if ($last_part != "edit") {
       $vars['section_title'] = $first_part;
     }
+    if (isset($vars['node'])) {
+      $vars['title'] = $vars['section_title'];
+    }
   }
 }
 

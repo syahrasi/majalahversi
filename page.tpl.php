@@ -75,11 +75,9 @@
     </div> <!-- /#featured -->
   <?php endif; ?>
   
-  
-  <?php if ($title !== '' && $page == 0): ?>
-      <div id="section" class="floatleft"><?php print '<h2>'. $section_title .'</h2>'; ?></div>
+  <?php if(!$title == ''): ?>
+    <div id="section" class="floatleft"><?php print '<h2>'. $title .'</h2>'; ?></div>
   <?php endif ?>
-  
   
   <?php if ($left): ?>
     <div class="<?php print $left_classes; ?>"><?php print $left; ?></div>
