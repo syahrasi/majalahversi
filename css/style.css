@@ -673,6 +673,9 @@ h3.block-title {
 
 h2.row-title {
   text-shadow:1px 1px 1px #CCC; }
+  
+h2.node-title {
+text-shadow:1px 1px 1px #FFF; }
 
 #content-bottom h3.block-title {
   background-color: #111;

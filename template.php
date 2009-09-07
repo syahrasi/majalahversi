@@ -136,6 +136,17 @@ function phptemplate_preprocess_page(&$vars) {
   unset($css['all']['module']['sites/all/modules/contrib/plus1/plus1.css']);
   $vars['styles'] = drupal_get_css($css);   
   */
+  if (module_exists('path')) {
+    $path_alias = drupal_get_path_alias($_GET['q']);
+    $base_path = base_path();
+    $alias_parts = explode('/', $path_alias);
+    $first_part = $alias_parts[0];
+    $last = array_reverse($alias_parts);
+    $last_part = $last[0];
+    if ($last_part != "edit") {
+      $vars['section_title'] = $first_part;
+    }
+  }
 }
 
 /**
