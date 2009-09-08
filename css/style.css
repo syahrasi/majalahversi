@@ -352,7 +352,7 @@ div.image-right,
 div.standalone-image {
   background-color: #F6F6F6;
   border: 1px solid #CCC;
-  margin: 20px;
+  margin: 0 20px;
   padding: 4px; }
 div.image-left img, 
 div.image-right img, 
