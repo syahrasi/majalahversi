@@ -731,6 +731,11 @@ text-shadow:1px 1px 1px #FFF; }
   float: left;
   width: 180px; }
  
+#content-middle-one #block-views-artikel-block_6 div.row-textgroup {
+  float: none;
+  width: 100%;
+}
+
 #embedded-views div.views-row {
   overflow:hidden; }  
 #embedded-views .row-textgroup {
