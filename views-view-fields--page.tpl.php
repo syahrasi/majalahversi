@@ -24,22 +24,6 @@
     <?php print $fields['field_main_image_fid']->content; ?>    
   </div>
   <p class='row-info'>
-    <?php if($fields['type']->content): ?>
-      <span class='row-term'>
-        <?php print $fields['type']->content; ?>
-      </span>
-      <?php if(($fields['type']->content && $fields['tid']->content) || ($fields['type']->content && $fields['created']->content)): ?>
-        &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-      <?php endif ?>
-    <?php endif ?>
-    <?php if($fields['tid']->content): ?>
-      <span class='row-term'>
-        <?php print $fields['tid']->content; ?>
-      </span>
-      <?php if(($fields['tid']->content && $fields['field_penulis_nid']->content) || ($fields['tid']->content && $fields['created']->content)): ?>
-        &nbsp;&nbsp;&bull;&nbsp;&nbsp;
-      <?php endif ?>
-    <?php endif ?>
     <?php if($fields['field_penulis_nid']->content): ?>
       <span class='row-author'>
         <?php print $fields['field_penulis_nid']->content; ?>
@@ -50,6 +34,22 @@
     <?php endif ?>
     <?php if($fields['created']->content): ?>
         <span class='row-date'><?php print $fields['created']->content; ?></span>
+    <?php endif ?>
+      <?php if($fields['created']->content && ($fields['tid']->content || $fields['type']->content)): ?>
+        &nbsp;&nbsp;&bull;&nbsp;&nbsp;
+      <?php endif ?>
+    <?php if($fields['type']->content): ?>
+      <span class='row-term'>
+        <?php print $fields['type']->content; ?>
+      </span>
+    <?php endif ?>
+      <?php if($fields['type']->content && $fields['tid']->content): ?>
+        &nbsp;&nbsp;&bull;&nbsp;&nbsp;
+      <?php endif ?>
+    <?php if($fields['tid']->content): ?>
+      <span class='row-term'>
+        <?php print $fields['tid']->content; ?>
+      </span>
     <?php endif ?>
     <?php if($fields['comment_count']->content): ?>
         <span class='row-comment-count'><?php print $fields['comment_count']->content; ?></span>

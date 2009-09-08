@@ -135,7 +135,7 @@ div.block {
 
   #center h2 {
     line-height: 1em;
-    margin-bottom: 10px; }
+    margin-bottom: 20px; }
 
 div.tabs {
   margin: 0 0 20px 0;
@@ -1126,8 +1126,8 @@ div.node .categories ul {
 div.node-submit-info {
   color: #C00; 
   padding: 0 0 5px;
-  border-bottom: 1px solid #EEE; 
-  margin-bottom: 20px; }
+  margin-bottom: 5px; 
+  text-transform: uppercase; }
   div.node-submit-info ul.links {
     display:inline;
   }
