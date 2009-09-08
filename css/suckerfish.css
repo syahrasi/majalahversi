@@ -45,7 +45,7 @@ http://www.alistapart.com/articles/horizdropdowns
   text-decoration: none;
   /*font-weight: bold;*/
   text-transform:uppercase;
-  border-top: 1px solid #EEE;
+  border-top: 1px solid transparent;
 }
 /*
 #suckerfishmenu	 a.active
