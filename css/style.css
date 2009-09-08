@@ -905,7 +905,6 @@ input.text, input.title, textarea, select {
 }
 
 div.view-empty {
-  background-color: #FFF;
   padding: 20px;
   font-weight: bold; }
 div.view-header {
