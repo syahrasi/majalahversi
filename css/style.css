@@ -515,11 +515,13 @@ span.count-number {
 #right-middle div.block div.content,
 #content-middle-one div.block div.content,
 #content-middle-two div.block div.content {
-  padding: 0 20px 20px; }
+  padding: 0 20px 20px; 
+  border-top: 1px solid #FFF; }
   
 #right div.block-ad div.content,
 #right-middle div.block-ad div.content {
   padding: 0;
+  border: none;
 }
 
 #right #block-block-7 div.content {
@@ -693,10 +695,10 @@ text-shadow:1px 1px 1px #FFF; }
   top: 0; 
   text-shadow:1px 1px 1px #111; }
 
-#block-views-issue-block_1 .block-title,
-#block-views-issue2-block_1 .block-title {
-  border-bottom: none;
-}
+/*#block-views-issue-block_1 .block-title,*/
+/*#block-views-issue2-block_1 .block-title {*/
+/*  border-bottom: none;*/
+/*}*/
 
 #content-middle-one div.views-row,
 #content-middle-two div.views-row {
@@ -752,7 +754,6 @@ div.view-id-issue2 h3 {
   font-style: italic;
   font-size: 1.5em;
   line-height: 1.5em;
-  border-top: 1px solid #EEE;
   border-bottom: 1px solid #EEE; }
   div.view-id-issue h3 p,
   div.view-id-issue2 h3 p {
@@ -1003,6 +1004,7 @@ div.views-row h3 {
 }
 .page-suara-main .block .content {
   padding: 0 20px 20px;
+  border-top: 1px solid #FFF;
 }
 .page-suara-main .block div.view-content div.views-row {
   margin:0;
