@@ -399,6 +399,14 @@ div.attachment-before div.view-id-perusahaan div.view-content {
   margin-bottom: 20px;
   padding: 20px; 
   overflow: hidden; }
+
+.in-maintenance #content-content,
+.db-offline #content-content {
+  border-top: 5px solid #CCCCCC;
+  background: #FFF url('../images/shadow_top.png') repeat-x;
+  margin: 0 0 20px;
+  padding: 20px; 
+  overflow: auto; }  
   
 .page-galeri #content-content, 
 .page-karikatur #content-content {
