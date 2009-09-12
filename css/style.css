@@ -1144,6 +1144,12 @@ div.node-submit-info {
     display:inline;
   }
 
+blockquote {
+  font-size: 1.5em;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-style: normal;
+}
+
 div.terms {
   text-transform: uppercase; }
 div.meta {
