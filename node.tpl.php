@@ -27,6 +27,9 @@
     <h2 class="node-title"><?php print $title ?></h2>    
   <?php endif ?>
 <?php endif; ?>
+<?php if($node->field_subtitle): ?>
+  <h4 class='subtitle'><?php print $node->field_subtitle[0]['safe'];  ?></h4>
+<?php endif ?>
 <?php if ($submitted): ?>
   <div class="meta">
   <?php if ($submitted): ?>

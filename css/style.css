@@ -1114,6 +1114,14 @@ div.node .terms .links li {
   padding: 0 0 0 10px;
 }
 
+.subtitle {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  margin-top: -10px;
+  margin-bottom: 30px;
+  color: #C00;
+  text-transform: uppercase;
+}
+
 .node-summary {
   font-style: italic;
 }

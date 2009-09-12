@@ -10,11 +10,6 @@
   print $teaser;
   } else { ?>
 
-<?php if ($page == 0): ?>
-  <h2><a href="<?php print $node_url ?>" title="<?php print $title ?>"><?php print $title ?></a></h2>
-<?php else: ?>
-  <h2 class="node-title"><?php print $title ?></h2>  
-<?php endif; ?>
 <?php if ($date || $authors): ?>
   <div class="node-submit-info">
   <?php if ($authors): ?>
@@ -34,6 +29,14 @@
   <?php endif; ?>
   </div>
 <?php endif; ?>
+<?php if ($page == 0): ?>
+  <h2><a href="<?php print $node_url ?>" title="<?php print $title ?>"><?php print $title ?></a></h2>
+<?php else: ?>
+  <h2 class="node-title"><?php print $title ?></h2>  
+<?php endif; ?>
+<?php if($node->field_subtitle): ?>
+  <h4 class='subtitle'><?php print $node->field_subtitle[0]['safe'];  ?></h4>
+<?php endif ?>
 <?php if ($submitted): ?>
   <div class="meta">
   <?php if ($submitted): ?>
@@ -67,5 +70,4 @@
     print '<div class="node-links">'. $links .'</div>';
   }
 ?>
-
 
