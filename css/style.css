@@ -1129,7 +1129,7 @@ div.node .terms .links li {
 }
 
 .node-summary {
-  font-style: italic;
+  font-weight: bold;
 }
 
 div.views-row-last div.node {
