@@ -1033,6 +1033,12 @@ div.views-row h3 {
   display: none;
 }
 
+.page-suara-main .view-display-id-block_3 h4.row-title,
+.page-suara-main .view-display-id-block_4 h4.row-title {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
 #hori-adv-one, 
 #hori-adv-two, 
 #hori-adv-three {
