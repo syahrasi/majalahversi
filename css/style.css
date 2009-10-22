@@ -630,6 +630,23 @@ span.count-number {
     margin-bottom: 10px;
     text-align: right; }
 
+#content-middle-two #block-views-artikel-block_3 {
+  background-color: #333;
+}
+  #block-views-artikel-block_3 h3.block-title {
+    border-bottom: 1px solid #000;
+  }
+  #block-views-artikel-block_3 a {
+  color: #FFF;
+  }
+  #content-middle-two #block-views-artikel-block_3 div.content {
+    border-top: 1px solid #444;
+    color: #CCC;
+  }
+  #content-middle-two #block-views-artikel-block_3 div.content div.read-more a {
+    background-color: #111;
+  }
+
 #right-middle div.block,
 #content-middle-one div.block, 
 #content-middle-two div.block {
