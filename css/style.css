@@ -394,11 +394,28 @@ div.attachment-before div.view-id-perusahaan div.view-content {
 */
 
 #content-content {
-  border-top: 5px solid #CCCCCC;
+  border-top: 5px solid #333;
   background: #FFF url('../images/shadow_top.png') repeat-x;
   margin-bottom: 20px;
   padding: 20px; 
   overflow: hidden; }
+  .page-frontpage #content-content {
+    padding:0;
+    background-color: #FFF;
+    background-image: none;
+    }
+    .page-frontpage #content-content div.row-container {
+      padding: 20px 20px 0;
+      background: #FFF url('../images/shadow_top.png') repeat-x;
+    }
+    .page-frontpage #content-content div.views-row {
+      margin: 0;
+      border-bottom: 1px solid #CCC;
+    }
+    .page-frontpage #content-content div.views-row-last div.read-more {
+      margin-bottom: 20px;
+    }
+
 
 .in-maintenance #content-content,
 .db-offline #content-content {
@@ -426,7 +443,7 @@ div.row-teaser div.read-more {
   margin-bottom: 20px;}
   div.read-more a {
     padding: 3px 10px;
-    background-color: #999;
+    background-color: #CC0000;
     color: #FFF;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
