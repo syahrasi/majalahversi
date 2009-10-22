@@ -541,7 +541,7 @@ span.count-number {
 #content-middle-one div.block div.content,
 #content-middle-two div.block div.content {
   padding: 0 20px 20px; 
-  border-top: 1px solid #EEE; }
+  border-top: 1px solid #FFF; }
   
 #right div.block-ad div.content,
 #right-middle div.block-ad div.content {
@@ -692,13 +692,14 @@ span.count-number {
   position: relative; }
 
 h3.block-title {
-  background-color: #444;
+/*  background-color: #444;*/
+  background: #1D1D1D url(../images/feat-tab-a.png) repeat-x scroll;
   color: #CCC;
-  border-top: 5px solid #333;
+  border-top: 5px solid #111;
   border-bottom: 1px solid #999;
   padding: 20px;
   margin: 0; 
-  text-shadow:1px 1px 1px #333; }
+  text-shadow:1px 1px 1px #000; }
 
 h2.row-title {
   text-shadow:1px 1px 1px #CCC; }
