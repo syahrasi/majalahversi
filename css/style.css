@@ -652,6 +652,7 @@ span.count-number {
 #content-middle-one div.block, 
 #content-middle-two div.block {
   background-color: #FFF;
+  border-bottom: 1px solid #DDD;
   overflow: hidden;
   width: 100%; 
   /* float: left;*/ }
