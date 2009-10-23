@@ -542,8 +542,10 @@ span.count-number {
 #content-middle-one div.block div.content,
 #content-middle-two div.block div.content {
   padding: 0 20px 20px; 
-  border-top: 1px solid #FFF; 
-  border-bottom: 1px solid #DDD; }
+  border-width: 1px;
+  border-style: solid;
+  border-color: #FFFFFF #DDDDDD #DDDDDD;
+  }
   
 #right div.block-ad div.content,
 #right-middle div.block-ad div.content {
@@ -642,7 +644,9 @@ span.count-number {
   color: #FFF;
   }
   #content-middle-two #block-views-artikel-block_3 div.content {
-    border-top: 1px solid #444;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #444444 #111111 #111111;
     color: #CCC;
   }
   #content-middle-two #block-views-artikel-block_3 div.content div.read-more a {
@@ -769,7 +773,7 @@ text-shadow:1px 1px 1px #FFF; }
 #content-middle-one div.views-row div.row-textgroup,
 #content-middle-two div.views-row div.row-textgroup {
   float: left;
-  width: 180px; }
+  width: 178px; }
  
 #content-middle-one #block-views-artikel-block_6 div.row-textgroup {
   float: none;
