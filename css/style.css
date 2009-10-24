@@ -394,7 +394,7 @@ div.attachment-before div.view-id-perusahaan div.view-content {
 */
 
 #content-content {
-  border-top: 5px solid #111;
+  border: 1px solid #DDD;
   background: #FFF url('../images/shadow_top.png') repeat-x;
   margin-bottom: 20px;
   padding: 20px; 
@@ -784,7 +784,7 @@ text-shadow:1px 1px 1px #FFF; }
   overflow:hidden; }  
 #embedded-views .row-textgroup {
   float: left;
-  width: 440px; }
+  width: 438px; }
 #embedded-views h3 {
   border-top: 5px solid #CCC;
   border-bottom: 1px solid #EEE;
@@ -1050,7 +1050,7 @@ div.views-row h3 {
 
 .page-node #center .page-suara-main {
   background-color:transparent;
-  border-top: none;
+  border: none;
   margin-bottom: 0;
   overflow:hidden;
   padding:0;
