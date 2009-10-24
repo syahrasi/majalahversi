@@ -644,6 +644,9 @@ span.count-number {
   #block-views-artikel-block_3 h3.block-title {
     border-bottom: 1px solid #000;
   }
+  #block-views-artikel-block_3 h4.row-title {
+    text-shadow: 1px 1px 1px #111;
+  }
   #block-views-artikel-block_3 a {
   color: #FFF;
   }
@@ -813,6 +816,7 @@ div.view-id-issue2 h3 {
   padding: 10px 0;
   color: #C00;
   font-style: italic;
+  text-shadow:1px 1px 1px #CCC;
   font-size: 1.5em;
   line-height: 1.5em;
   border-bottom: 1px solid #EEE; }
@@ -822,6 +826,7 @@ div.view-id-issue2 h3 {
     margin: 0; }
 
 h4.row-title {
+  text-shadow:1px 1px 1px #CCC;
   margin-bottom: 5px; }
 
 #content-bottom .row-container {
