@@ -98,7 +98,7 @@ div.block {
   border: 0;
   margin-bottom: 20px;
   padding: 0;
-  background: #FFF url('../images/shadow_top.png') repeat-x 0 65px; }
+  background: #FFF url('../images/shadow_top.png') repeat-x 0 35px; }
 
 #suckerfishmenu div.block {
   background: none;
@@ -403,18 +403,22 @@ div.attachment-before div.view-id-perusahaan div.view-content {
     padding:0;
     background-color: #FFF;
     background-image: none;
-    border-top: none;
+    border: 1px solid #CCC;
     }
     .page-frontpage #content-content div.row-container {
       padding: 20px 20px 0;
-      background: #FFF url('../images/shadow_top.png') repeat-x;
+      background: #FFF url('../images/shadow_top.png') repeat-x 0 -30px;
     }
     .page-frontpage #content-content div.views-row {
       margin: 0;
-      border-bottom: 1px solid #CCC;
+      border-bottom: 1px solid #DDDDDD;
+      border-top: 1px solid #FFFFFF;
     }
     .page-frontpage #content-content div.views-row-last div.read-more {
       margin-bottom: 20px;
+    }
+    .page-frontpage #content-content div.views-row-last {
+      border-bottom: none;
     }
 
 
