@@ -12,12 +12,13 @@
   <!--[if lte IE 7]>
     <link rel="stylesheet" href="<?php print $path; ?>blueprint/blueprint/ie.css" type="text/css" media="screen, projection">
   	<link href="<?php print $path; ?>css/ie.css" rel="stylesheet"  type="text/css"  media="screen, projection" />
-  <![endif]-->  
+  <![endif]-->
   <!--[if lte IE 6]>
   	<link href="<?php print $path; ?>css/ie6.css" rel="stylesheet"  type="text/css"  media="screen, projection" />
-  <![endif]-->  
+  <![endif]-->
 </head>
 <body class="<?php print $body_classes; ?>">
+<?php if (!empty($admin)) print $admin; ?>
 <a id="feedback-tab" href='<?php print base_path(); ?>contact' class="popups-form-reload" title="Hubungi Kami">Feedback</a>
 <div id="container" class="container">
   <div id="header" class="floatleft">
@@ -33,10 +34,10 @@
       </div>
       <div id="feedbox" class="floatright">
         <?php if($feed_icons): ?>
-          <?php print $feed_icons; ?>   
+          <?php print $feed_icons; ?>
         <?php else: ?>
           <a href="/feed" class="feed-icon"><img src="/misc/feed.png" alt="Syndicate content" title="" height="16" width="16"></a>
-        <?php endif ;?>      
+        <?php endif ;?>
       </div>
       <?php if (isset($secondary_links)) : ?>
         <div id="top-menu" class="span-16 last"><?php print theme('links', $secondary_links, array('id' => 'subnav', 'class' => 'links')) ?></div>
@@ -67,18 +68,18 @@
       </div> <!-- /#breadcrumb -->
     <?php endif; ?>
   </div>
-  
+
 
   <?php if ($featured): ?>
     <div id="featured" class="floatleft">
       <?php print $featured; ?>
     </div> <!-- /#featured -->
   <?php endif; ?>
-  
+
   <?php if(!$title == ''): ?>
     <div id="section" class="floatleft"><?php print '<h2>'. $title .'</h2>'; ?></div>
   <?php endif ?>
-  
+
   <?php if ($left): ?>
     <div class="<?php print $left_classes; ?>"><?php print $left; ?></div>
   <?php endif ?>
@@ -91,13 +92,13 @@
       if ($messages != '') {
         print '<div id="messages">'. $messages .'</div>';
       }
-      
+
       /*
       if ($title != '') {
         print '<h2>'. $title .'</h2>';
-      } */  
+      } */
 
-      print $help; // Drupal already wraps this one in a class      
+      print $help; // Drupal already wraps this one in a class
     ?>
     <?php if ($content): ?>
       <div id="content-content">
@@ -109,49 +110,49 @@
   <?php if ($right): ?>
     <div id="right" class="<?php print $right_classes; ?>"><?php print $right; ?></div>
   <?php endif ?>
-  
+
   <?php if ($hori_adv_one): ?>
     <div id="hori-adv-one" class="floatleft<?php if(!$is_front) { print " no-bottom-margin"; } ?>">
       <?php print $hori_adv_one; ?>
     </div> <!-- /#horizontal advertisement one -->
   <?php endif; ?>
-  
+
   <?php if ($content_middle_one): ?>
     <div id="content-middle-one" class="span-8">
       <?php print $content_middle_one; ?>
     </div> <!-- /#content middle -->
   <?php endif; ?>
-      
+
     <?php if ($content_middle_two): ?>
     <div id="content-middle-two" class="span-8">
       <?php print $content_middle_two; ?>
     </div> <!-- /#content middle -->
   <?php endif; ?>
-  
+
   <?php if ($right_middle): ?>
     <div id="right-middle" class="span-8 last">
       <?php print $right_middle; ?>
     </div> <!-- /#right middle -->
   <?php endif; ?>
-  
+
   <?php if ($hori_adv_two): ?>
     <div id="hori-adv-two" class="floatleft<?php if($is_front) { print " no-bottom-margin"; } ?>">
       <?php print $hori_adv_two; ?>
     </div> <!-- /#horizontal advertisement two -->
   <?php endif; ?>
-  
+
   <?php if ($content_bottom): ?>
     <div id="content-bottom" class="floatleft">
       <?php print $content_bottom; ?>
     </div> <!-- /#content bottom -->
   <?php endif; ?>
-  
+
   <?php if ($hori_adv_three): ?>
     <div id="hori-adv-three" class="floatleft<?php if($is_front) { print " no-bottom-margin"; } ?>">
       <?php print $hori_adv_three; ?>
     </div> <!-- /#horizontal advertisement three -->
   <?php endif; ?>
-  
+
   <?php if ($footer_message | $footer): ?>
     <div id="footer" class="floatleft">
       <?php if ($footer): ?>
@@ -161,7 +162,7 @@
         <div id="footer-message"><?php print $footer_message; ?></div>
       <?php endif; ?>
     </div>
-  <?php endif; ?>  
+  <?php endif; ?>
 
   <?php print $scripts ?>
   <?php print $closure; ?>
@@ -170,3 +171,4 @@
 
 </body>
 </html>
+
