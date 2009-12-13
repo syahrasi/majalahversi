@@ -14,7 +14,7 @@
  * @param $vars
  *   A sequential array of variables passed to the theme function.
  */
-/* 
+/*
 function majalahversi_preprocess_search_theme_form(&$vars, $hook) {
 
   // Modify elements of the search form
@@ -27,7 +27,7 @@ function majalahversi_preprocess_search_theme_form(&$vars, $hook) {
   $vars['form']['search_theme_form']['#attributes'] = array('class' => t('cleardefault'));
 
   $vars['form']['search_theme_form']['#size'] = 35;
-  
+
   // Change the text on the submit button
   $vars['form']['submit']['#value'] = t('Go');
 
@@ -129,12 +129,12 @@ function phptemplate_preprocess_page(&$vars) {
   $search = module_invoke('google_cse', 'block', 'view', '0');
   $vars['search'] = $search['content'];
   */
-  
+
   /* to remove specific CSS files from modules use this trick
   // Remove stylesheets
   $css = $vars['css'];
   unset($css['all']['module']['sites/all/modules/contrib/plus1/plus1.css']);
-  $vars['styles'] = drupal_get_css($css);   
+  $vars['styles'] = drupal_get_css($css);
   */
   if (module_exists('path')) {
     $path_alias = drupal_get_path_alias($_GET['q']);
@@ -148,6 +148,8 @@ function phptemplate_preprocess_page(&$vars) {
     }
     if (isset($vars['node'])) {
       $vars['title'] = $vars['section_title'];
+      $title = explode('-', $vars['title']);
+      $vars['title'] = implode(' ', $title);
     }
   }
 }
@@ -176,7 +178,7 @@ function phptemplate_preprocess_node(&$vars) {
  */
 function phptemplate_preprocess_comment(&$vars) {
   static $comment_count = 1; // keep track the # of comments rendered
-  
+
   // if the author of the node comments as well, highlight that comment
   $node = node_load($vars['comment']->nid);
   if ($vars['comment']->uid == $node->uid) {
@@ -196,7 +198,7 @@ function phptemplate_preprocess_comment(&$vars) {
     $vars['picture'] = '<div class="no-picture">&nbsp;</div>';
   }
 */
-  $vars['comment_count'] = $comment_count++;  
+  $vars['comment_count'] = $comment_count++;
 }
 
 /**
@@ -220,7 +222,7 @@ function phptemplate_preprocess_block(&$vars, $hook) {
 
   $vars['edit_links_array'] = array();
   $vars['edit_links'] = '';
-  
+
   if (user_access('administer blocks')) {
     include_once './' . drupal_get_path('theme', 'majalahversi') . '/template.block-editing.inc';
     phptemplate_preprocess_block_editing($vars, $hook);
@@ -465,15 +467,15 @@ function majalahversi_preprocess_node(&$vars) {
     foreach ($node->taxonomy as $term) {
       // We will build a new array where there will be as many
       // nested arrays as there are vocabularies
-      // The key for each nested array is the vocabulary ID.     
+      // The key for each nested array is the vocabulary ID.
       $vocabulary[$term->vid]['taxonomy_term_'. $term->tid]  = array(
         'title' => $term->name,
         'href' => taxonomy_term_path($term),
         'attributes' => array(
-          'rel' => 'tag', 
+          'rel' => 'tag',
           'title' => strip_tags($term->description),
         ),
-      );       
+      );
     }
     switch ($node->type)
     {
@@ -520,7 +522,7 @@ function majalahversi_preprocess_node(&$vars) {
     $vars['tags']= theme('links',$vocabulary[15], array('class'=>'links inline'));
     $vars['categories']= theme('links',$vocab, array('class'=>'links inline'));
     $vars['terms']= $vars['categories'];
-    
+
   }
   if ($node->field_penulis) {
     foreach ($node->field_penulis as $author) {
@@ -537,7 +539,7 @@ function majalahversi_preprocess_node(&$vars) {
         break;
         case '44':
           $kontribusi = 'Karikatur';
-        break;        
+        break;
         default:
           $kontribusi = 'Artikel';
         break;
@@ -561,6 +563,4 @@ function majalahversi_preprocess_node(&$vars) {
     }
   }
 }
-
-
 
