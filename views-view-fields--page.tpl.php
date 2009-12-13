@@ -20,14 +20,14 @@
  */
 ?>
 <div class='row-container'>
-  <div class='row-thumb'>
-    <?php print $fields['field_main_image_fid']->content; ?>    
-  </div>
+  <?php if($fields['field_main_image_fid']->content): ?>
+    <div class='row-thumb' >
+      <?php print $fields['field_main_image_fid']->content; ?>
+    </div>
+  <?php endif ?>
   <p class='row-info'>
     <?php if($fields['field_penulis_nid']->content): ?>
-      <span class='row-author'>
-        <?php print $fields['field_penulis_nid']->content; ?>
-      </span>
+      <span class='row-author'><?php print $fields['field_penulis_nid']->content; ?></span>
       <?php if($fields['field_penulis_nid']->content && $fields['created']->content): ?>
         &nbsp;&nbsp;&bull;&nbsp;&nbsp;
       <?php endif ?>
@@ -57,7 +57,7 @@
   </p>
   <?php if($fields['title']->content): ?>
     <h2 class='row-title'>
-      <?php print $fields['title']->content; ?>      
+      <?php print $fields['title']->content; ?>
     </h2>
   <?php endif ?>
   <?php if($fields['teaser']->content || $fields['body']->content): ?>
@@ -66,7 +66,7 @@
       <?php print $fields['teaser']->content; ?>
     <?php endif ?>
     <?php if($fields['body']->content): ?>
-      <?php print $fields['body']->content; ?>  
+      <?php print $fields['body']->content; ?>
     <?php endif ?>
     <?php if($fields['field_name_value']->content): ?>
       &nbsp;&nbsp;&mdash;&nbsp;&nbsp;<span class='sdp-pengirim'><?php print $fields['field_name_value']->content; ?></span>
@@ -79,5 +79,4 @@
   </div>
   <?php endif ?>
 </div>
-
 
