@@ -328,8 +328,7 @@ span.tags ul li a {
 div.views_slideshow_teaser_section p {
   color: #CCC;
   text-align: left; }
-div.content div.field-items img,
-div.content p img {
+div.content div.field-items img {
   background-color: #F6F6F6;
   border: 1px solid #CCC;
   margin: 0 20px 20px 0;
@@ -341,12 +340,6 @@ div.row-thumb img {
   padding: 4px; }
 div.block div.row-thumb img {
   margin: 0 10px 10px 0; }
-div.content p img {
-  margin-top: 20px; }
-  div.content p img left {
-    margin-left: 0; }
-  div.content p img right {
-    margin-right: 0; }
 div.image-left,
 div.image-right,
 div.standalone-image {
@@ -1008,7 +1001,7 @@ div.views-row h3 {
   background-color: #F6F6F6;
   display: inline-block;
   float: left;
-  margin: 0 0 20px 20px;
+  margin: 0 0 20px 19px;
   min-height: 200px;
   position: relative;
   vertical-align: baseline;
