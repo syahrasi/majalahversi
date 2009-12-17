@@ -33,6 +33,8 @@
         <?php } ?>
       </div>
       <div id="feedbox" class="floatright">
+          <a href="http://www.facebook.com/pages/majalahversicom/42137374830"><img src="<?php print drupal_get_path('theme', 'majalahversi');?>/images/facebook.png" alt="majalahversi.com page on facebook" title="majalahversi.com page on facebook" height="16" width="16"></a>&nbsp;
+          <a href="http://twitter.com/majalahversi"><img src="<?php print drupal_get_path('theme', 'majalahversi');?>/images/twitter.png" alt="follow us on twitter" title="follow us on twitter" height="16" width="16"></a>&nbsp;
         <?php if($feed_icons) {
           print $feed_icons;
         } else { ?>
