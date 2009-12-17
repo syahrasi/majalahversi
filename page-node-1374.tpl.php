@@ -38,7 +38,7 @@
         <?php if($feed_icons) {
           print $feed_icons;
         } else { ?>
-        <a href="/feed" class="feed-icon"><img src="/misc/feed.png" alt="Syndicate content" title="" height="16" width="16"></a>
+        <a href="/feed" class="feed-icon"><img src="/misc/feed.png" alt="Syndicate content" title="subscribe to our feed" height="16" width="16"></a>
         <?php }?>
       </div>
       <?php if (isset($secondary_links)) : ?>
