@@ -16,13 +16,17 @@ FOOTER
 
 body {
   color: #333;
-  background: #666 url(../images/bg.png) repeat-y scroll 50% 0; }
+  background-color: #666; }
 
 div.container {
   background-color: #EEE;
   border: 0px solid #666;
   width: 980px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  box-shadow: 0 0 30px #222;
+  -moz-box-shadow: 0 0 30px #222;
+  -webkit-box-shadow: 0 0 30px #222;
+  }
 
 #feedback-tab {
   background: #222 url(../images/feedback-tab.png);
