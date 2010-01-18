@@ -464,12 +464,14 @@ div.block div.view-content div.views-summary-unformatted {
   margin: 0;
 }
 
-#block-views-artikel-block_4 div.view-content div.views-row,
-#block-views-belanja-block_1 div.view-content div.views-row,
-#block-views-artikel-block_5 div.view-content div.views-row,
-#block-views-perusahaan-block_1 div.view-content div.views-row {
+
+div.view-content div.views-row {
   padding: 0;
   margin-top: 20px;
+}
+div.view-content div.views-row-first {
+  padding: 0;
+  margin-top: 0;
 }
 
 div.block div.row-teaser div.read-more {
@@ -538,15 +540,31 @@ span.count-number {
       #right div.block div.views-field-teaser p {
         margin: 0; }
 
-#right div.block div.content,
-#right-middle div.block div.content,
-#content-middle-one div.block div.content,
-#content-middle-two div.block div.content {
-  padding: 0 20px 20px;
+div.block div.content {
+  padding: 20px;
   border-width: 1px;
   border-style: solid;
   border-color: #FFFFFF #DDDDDD #DDDDDD;
   }
+#suckerfishmenu div.block div.content,
+#featured div.block div.content,
+#hori-adv-one div.block div.content,
+#hori-adv-two div.block div.content,
+#hori-adv-three div.block div.content,
+#content-bottom div.block div.content,
+#footer div.block div.content
+{
+  padding: 0;
+  border: none;
+}
+
+div.block div.content .poll .title {
+  margin-bottom: 20px;
+}
+
+.poll .bar .foreground {
+  background-color: #666;
+}
 
 #right div.block-ad div.content,
 #right-middle div.block-ad div.content {
@@ -771,7 +789,7 @@ text-shadow:1px 1px 1px #FFF; }
 
 #content-middle-one div.views-row div.row-container,
 #content-middle-two div.views-row div.row-container {
-  padding: 20px 0 0;
+  padding: 10px 0 0;
   float: left; }
 
 #content-middle-one div.views-row div.row-textgroup,
@@ -782,6 +800,11 @@ text-shadow:1px 1px 1px #FFF; }
 #content-middle-one #block-views-artikel-block_6 div.row-textgroup {
   float: none;
   width: 100%;
+}
+
+#content-middle-one div.views-row-first div.row-container,
+#content-middle-two div.views-row-first div.row-container {
+  padding-top: 0
 }
 
 #embedded-views div.views-row {
@@ -809,8 +832,8 @@ text-shadow:1px 1px 1px #FFF; }
 }
 div.view-id-issue h3,
 div.view-id-issue2 h3 {
-  margin: 0;
-  padding: 10px 0;
+  margin: 0 0 10px;
+  padding: 0 0 10px;
   color: #C00;
   font-style: italic;
   text-shadow:1px 1px 1px #CCC;
@@ -1064,13 +1087,14 @@ div.views-row h3 {
 .page-suara-main .block {
   background-color: #FFF;
 }
+/*
 .page-suara-main .block .content {
   padding: 0 20px 20px;
   border-top: 1px solid #FFF;
 }
+*/
 .page-suara-main .block div.view-content div.views-row {
   margin:0;
-  padding: 20px 0;
 }
 .page-suara-main #content-middle-one {
   margin-left: 0;
@@ -1081,6 +1105,10 @@ div.views-row h3 {
 
 .page-suara-main .node-links {
   display: none;
+}
+
+.page-suara-main .print-link {
+  padding: 0;
 }
 
 .page-suara-main .view-display-id-block_3 h4.row-title,
