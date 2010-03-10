@@ -18,6 +18,7 @@ regions[featured]       = featured
 regions[navbar]         = navigation bar
 regions[suckerfishmenu] = suckerfish menu
 regions[content]        = content
+regions[subcontent]     = subcontent
 regions[content_middle_one] = content middle one
 regions[content_middle_two] = content middle two
 regions[content_bottom] = content bottom

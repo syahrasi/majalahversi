@@ -109,6 +109,11 @@
         <?php print $content; ?>
       </div> <!-- /content-content -->
     <?php endif ?>
+    <?php if ($subcontent): ?>
+      <div id="sub-content">
+        <?php print $subcontent; ?>
+      </div> <!-- /sub-content -->
+    <?php endif ?>
   </div>
 
   <?php if ($right): ?>
