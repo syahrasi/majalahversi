@@ -1498,3 +1498,11 @@ tr.even td {
     text-shadow:1px 1px 1px rgba(0, 0, 0, 0.6);
   }
 
+
+#block-views-artikel-block_14 .block-title {
+  text-indent: -9999px;
+  width: 620px;
+  height: 156px;
+  padding: 0;
+  background: #333 url('../images/myversion_header.jpg') no-repeat;
+} 

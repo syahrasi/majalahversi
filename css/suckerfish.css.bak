@@ -121,12 +121,12 @@ http://www.alistapart.com/articles/horizdropdowns
 }
 
 #suckerfishmenu	 ul.menu li li.expanded a {
-	background-color: #757575;
+	background: #757575 url(../images/menu_arrow.png) 100% 50% no-repeat;
 }
 
 #suckerfishmenu	 ul.menu li li.expanded a:active,
 #suckerfishmenu	 ul.menu li li.expanded a:hover {
-	background-color: #757575;
+	background: #757575 url(../images/menu_arrow.png) 100% 50% no-repeat;
   color:#313131;
 }
 
@@ -147,12 +147,12 @@ http://www.alistapart.com/articles/horizdropdowns
 }
 
 #suckerfishmenu	 ul.menu li li.expanded ul.menu li.expanded a {
-	background-color: #757575;
+	background: #757575 url(../images/menu_arrow.png) 100% 50% no-repeat;
 }
 
 #suckerfishmenu	 ul.menu li li.expanded ul.menu li.expanded a:active,
 #suckerfishmenu	 ul.menu li li.expanded ul.menu li.expanded a:hover {
-	background-color: #757575;
+	background: #757575 url(../images/menu_arrow.png) 100% 50% no-repeat;
 }
 
 #suckerfishmenu	 ul.menu li li {
@@ -201,21 +201,17 @@ http://www.alistapart.com/articles/horizdropdowns
 #suckerfishmenu	 ul.menu li li.expanded ul.menu li.expanded ul.menu li a:active, #suckerfishmenu ul.menu li li.expanded ul.menu li.expanded ul.menu li a:hover {
 	background: #757575;}
 
-#suckerfishmenu	 ul.menu li li.expanded ul.menu li ul.menu li.expanded a {
-  background-color: #757575;
-}
+#suckerfishmenu	 ul.menu li li.expanded ul.menu li ul.menu li.expanded a { 	background: #757575 url(../images/menu_arrow.png) 100% 50% no-repeat; }
 #suckerfishmenu	 ul.menu li li.expanded ul.menu li ul.menu li.expanded a:active, #suckerfishmenu ul.menu li li.expanded ul.menu li ul.menu li.expanded a:hover {
-  background-color: #757575; }
+	background: #757575 url(../images/menu_arrow.png) 100% 50% no-repeat;}
 
 #suckerfishmenu	 ul.menu li li.expanded ul.menu li ul.menu a {   background: #757575; }
 #suckerfishmenu	 ul.menu li li.expanded ul.menu li ul.menu a:active, #suckerfishmenu ul.menu li li.expanded ul.menu li ul.menu a:hover {   background: #757575; }
 
 
-#suckerfishmenu	 ul.menu li li.expanded ul.menu li ul.menu li.expanded li ul.menu li.expanded a {
-	background-color: #757575;
-}
+#suckerfishmenu	 ul.menu li li.expanded ul.menu li ul.menu li.expanded li ul.menu li.expanded a { 	background: #757575 url(../images/menu_arrow.png) 100% 50% no-repeat; }
 #suckerfishmenu	 ul.menu li li.expanded ul.menu li ul.menu li.expanded li ul.menu li.expanded a:active, #suckerfishmenu ul.menu li li.expanded ul.menu li ul.menu li.expanded li ul.menu li.expanded a:hover {
-	background-color: #757575; }
+	background: #757575 url(../images/menu_arrow.png) 100% 50% no-repeat;}
 
 #suckerfishmenu	 ul.menu li li.expanded ul.menu li ul.menu li ul.menu a {   background: #757575; }
 #suckerfishmenu	 ul.menu li li.expanded ul.menu li ul.menu li ul.menu a:active, #suckerfishmenu ul.menu li li.expanded ul.menu li ul.menu li ul.menu a:hover {   background: #757575; }

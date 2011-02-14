@@ -1,0 +1,31 @@
+; $Id: page.tpl.php,v 1.15.4.1 2008/08/27 04:47:37 m3avrck Exp $
+name = Majalah Versi
+description = Drupal base theme built with Blueprint CSS framework.
+version = 6.1
+core = 6.x
+engine = phptemplate
+stylesheets[screen,projection][] = css/screen.css
+stylesheets[print][] = css/print.css
+stylesheets[screen,projection][] = css/blueprint.css
+stylesheets[screen,projection][] = css/style.css
+stylesheets[screen,projection][] = css/suckerfish.css
+;stylesheets[screen,projection][] = css/typography.css
+
+scripts[] = scripts/general.js
+
+regions[header]         = header
+regions[featured]       = featured
+regions[navbar]         = navigation bar
+regions[suckerfishmenu] = suckerfish menu
+regions[content]        = content
+regions[subcontent]     = subcontent
+regions[content_middle_one] = content middle one
+regions[content_middle_two] = content middle two
+regions[content_bottom] = content bottom
+regions[left]           = left
+regions[right]          = right
+regions[right_middle]   = right middle
+regions[hori_adv_one]   = horizontal advertisement one
+regions[hori_adv_two]   = horizontal advertisement two
+regions[hori_adv_three] = horizontal advertisement three
+regions[footer]         = footer
