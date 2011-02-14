@@ -139,7 +139,7 @@
   <?php endif; ?>   
 
   <?php if ($hori_adv_two): ?>
-    <div id="hori-adv-two" class="floatleft<?php if($is_front) { print " no-bottom-margin"; } ?>">
+    <div id="hori-adv-two" class="floatleft">
       <?php print $hori_adv_two; ?>
     </div> <!-- /#horizontal advertisement two -->
   <?php endif; ?>
@@ -175,7 +175,7 @@
   <?php endif; ?>
 
   <?php if ($hori_adv_four): ?>
-    <div id="hori-adv-four" class="floatleft<?php if(!$is_front) { print " no-bottom-margin"; } ?>">
+    <div id="hori-adv-four" class="floatleft<?php if($is_front) { print " no-bottom-margin"; } ?>">
       <?php print $hori_adv_four; ?>
     </div> <!-- /#horizontal advertisement four -->
   <?php endif; ?>  

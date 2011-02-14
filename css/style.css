@@ -1142,7 +1142,8 @@ div.views-row h3 {
 div#container div.no-bottom-margin div.block {
   margin-bottom: 0; }
 
-#content-middle-one {
+#content-middle-one,
+#content-top {
   margin-left: 20px; }
 
 #section {
