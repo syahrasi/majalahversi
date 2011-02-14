@@ -549,6 +549,7 @@ div.block div.content {
 #hori-adv-one div.block div.content,
 #hori-adv-two div.block div.content,
 #hori-adv-three div.block div.content,
+#hori-adv-four div.block div.content,
 #content-bottom div.block div.content,
 #footer div.block div.content
 {
@@ -1117,13 +1118,15 @@ div.views-row h3 {
 
 #hori-adv-one,
 #hori-adv-two,
-#hori-adv-three {
+#hori-adv-three,
+#hori-adv-four {
   margin: 0;
   width: 980px; }
 
 #hori-adv-one div.block,
 #hori-adv-two div.block,
 #hori-adv-three div.block,
+#hori-adv-four div.block,
 #content-bottom {
   background-image: none;
   background-color: #1D1D1D;

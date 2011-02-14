@@ -126,6 +126,24 @@
     </div> <!-- /#horizontal advertisement one -->
   <?php endif; ?>
 
+  <?php if ($content_top): ?>
+    <div id="content-top" class="span-16">
+      <?php print $content_top; ?>
+    </div> <!-- /#content top -->
+  <?php endif; ?>     
+
+  <?php if ($right_top): ?>
+    <div id="right-top" class="span-8 last">
+      <?php print $right_top; ?>
+    </div> <!-- /#right top -->
+  <?php endif; ?>   
+
+  <?php if ($hori_adv_four): ?>
+    <div id="hori-adv-four" class="floatleft<?php if(!$is_front) { print " no-bottom-margin"; } ?>">
+      <?php print $hori_adv_four; ?>
+    </div> <!-- /#horizontal advertisement four -->
+  <?php endif; ?> 
+
   <?php if ($content_middle_one): ?>
     <div id="content-middle-one" class="span-8">
       <?php print $content_middle_one; ?>
