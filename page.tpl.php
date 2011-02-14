@@ -138,11 +138,11 @@
     </div> <!-- /#right top -->
   <?php endif; ?>   
 
-  <?php if ($hori_adv_four): ?>
-    <div id="hori-adv-four" class="floatleft<?php if(!$is_front) { print " no-bottom-margin"; } ?>">
-      <?php print $hori_adv_four; ?>
-    </div> <!-- /#horizontal advertisement four -->
-  <?php endif; ?> 
+  <?php if ($hori_adv_two): ?>
+    <div id="hori-adv-two" class="floatleft<?php if($is_front) { print " no-bottom-margin"; } ?>">
+      <?php print $hori_adv_two; ?>
+    </div> <!-- /#horizontal advertisement two -->
+  <?php endif; ?>
 
   <?php if ($content_middle_one): ?>
     <div id="content-middle-one" class="span-8">
@@ -162,10 +162,10 @@
     </div> <!-- /#right middle -->
   <?php endif; ?>
 
-  <?php if ($hori_adv_two): ?>
-    <div id="hori-adv-two" class="floatleft<?php if($is_front) { print " no-bottom-margin"; } ?>">
-      <?php print $hori_adv_two; ?>
-    </div> <!-- /#horizontal advertisement two -->
+  <?php if ($hori_adv_three): ?>
+    <div id="hori-adv-three" class="floatleft<?php if($is_front) { print " no-bottom-margin"; } ?>">
+      <?php print $hori_adv_three; ?>
+    </div> <!-- /#horizontal advertisement three -->
   <?php endif; ?>
 
   <?php if ($content_bottom): ?>
@@ -174,11 +174,11 @@
     </div> <!-- /#content bottom -->
   <?php endif; ?>
 
-  <?php if ($hori_adv_three): ?>
-    <div id="hori-adv-three" class="floatleft<?php if($is_front) { print " no-bottom-margin"; } ?>">
-      <?php print $hori_adv_three; ?>
-    </div> <!-- /#horizontal advertisement three -->
-  <?php endif; ?>
+  <?php if ($hori_adv_four): ?>
+    <div id="hori-adv-four" class="floatleft<?php if(!$is_front) { print " no-bottom-margin"; } ?>">
+      <?php print $hori_adv_four; ?>
+    </div> <!-- /#horizontal advertisement four -->
+  <?php endif; ?>  
 
   <?php if ($footer_message | $footer): ?>
     <div id="footer" class="floatleft">
