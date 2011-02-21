@@ -4,6 +4,7 @@
    * Resets default browser CSS.
    
 -------------------------------------------------------------- */
+
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   margin: 0;
   padding: 0;
@@ -18,6 +19,7 @@ body {
   line-height: 1.5; }
 
 /* Tables still need 'cellspacing="0"' in the markup. */
+
 table {
   border-collapse: separate;
   border-spacing: 0; }
@@ -30,16 +32,20 @@ table, td, th {
   vertical-align: middle; }
 
 /* Remove possible quote marks (") from <q>, <blockquote>. */
-blockquote:before, blockquote:after {
-  content: ""; }
 
-q:before, q:after {
-  content: ""; }
+blockquote {
+  &:before, &:after {
+    content: ""; } }
+
+q {
+  &:before, &:after {
+    content: ""; } }
 
 blockquote, q {
   quotes: "" ""; }
 
 /* Remove annoying border on linked images. */
+
 a img {
   border: none; }
 
@@ -49,8 +55,10 @@ a img {
    * Sets up some sensible default typography.
    
 -------------------------------------------------------------- */
+
 /* Default font settings. 
    The font-size percentage is of 16px. (0.75 * 16px = 12px) */
+
 body {
   font-size: 75%;
   color: #222;
@@ -59,6 +67,7 @@ body {
 
 /* Headings
 -------------------------------------------------------------- */
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   color: #111; }
@@ -96,21 +105,23 @@ h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {
 
 /* Text elements
 -------------------------------------------------------------- */
+
 p {
-  margin: 0 0 1.5em; }
-  p img.left {
-    float: left;
-    margin: 1.5em 1.5em 1.5em 0;
-    padding: 0; }
-  p img.right {
-    float: right;
-    margin: 1.5em 0 1.5em 1.5em; }
+  margin: 0 0 1.5em;
+  img {
+    &.left {
+      float: left;
+      margin: 1.5em 1.5em 1.5em 0;
+      padding: 0; }
+    &.right {
+      float: right;
+      margin: 1.5em 0 1.5em 1.5em; } } }
 
 a {
+  &:focus, &:hover {
+    color: #000; }
   color: #009;
   text-decoration: underline; }
-  a:focus, a:hover {
-    color: #000; }
 
 blockquote {
   margin: 1.5em;
@@ -152,8 +163,10 @@ code, tt {
 
 /* Lists
 -------------------------------------------------------------- */
-li ul, li ol {
-  margin: 0 1.5em; }
+
+li {
+  ul, ol {
+    margin: 0 1.5em; } }
 
 ul, ol {
   margin: 0 1.5em 1.5em 1.5em; }
@@ -165,15 +178,16 @@ ol {
   list-style-type: decimal; }
 
 dl {
-  margin: 0 0 1.5em 0; }
-  dl dt {
-    font-weight: bold; }
+  margin: 0 0 1.5em 0;
+  dt {
+    font-weight: bold; } }
 
 dd {
   margin-left: 1.5em; }
 
 /* Tables
 -------------------------------------------------------------- */
+
 table {
   margin-bottom: 1.4em;
   width: 100%; }
@@ -198,6 +212,7 @@ caption {
 
 /* Misc classes
 -------------------------------------------------------------- */
+
 .small {
   font-size: .8em;
   margin-bottom: 1.875em;
@@ -249,31 +264,39 @@ caption {
    grid.css
    
 -------------------------------------------------------------- */
+
 /* A container should group all your columns. */
+
 .container {
   width: 940px;
   margin: 0 auto; }
 
 /* Use this class on any .span / container to see the grid. */
+
 .showgrid {
   background: url(grid.png); }
 
 /* Columns
 -------------------------------------------------------------- */
+
 /* Sets up basic grid floating and margin. */
+
 .column {
   float: left;
   margin-right: 20px; }
 
-div.span-1, div.span-2, div.span-3, div.span-4, div.span-5, div.span-6, div.span-7, div.span-8, div.span-9, div.span-10, div.span-11, div.span-12, div.span-13, div.span-14, div.span-15, div.span-16, div.span-17, div.span-18, div.span-19, div.span-20, div.span-21, div.span-22, div.span-23, div.span-24 {
-  float: left;
-  margin-right: 20px; }
+div {
+  &.span-1, &.span-2, &.span-3, &.span-4, &.span-5, &.span-6, &.span-7, &.span-8, &.span-9, &.span-10, &.span-11, &.span-12, &.span-13, &.span-14, &.span-15, &.span-16, &.span-17, &.span-18, &.span-19, &.span-20, &.span-21, &.span-22, &.span-23, &.span-24 {
+    float: left;
+    margin-right: 20px; } }
 
 /* The last column in a row needs this class. */
+
 .last, div.last {
   margin-right: 0; }
 
 /* Use these classes to set the width of a column. */
+
 .span-1 {
   width: 20px; }
 
@@ -348,6 +371,7 @@ div.span-1, div.span-2, div.span-3, div.span-4, div.span-5, div.span-6, div.span
   margin: 0; }
 
 /* Add these to a column to append empty cols. */
+
 .append-1 {
   padding-right: 40px; }
 
@@ -418,6 +442,7 @@ div.span-1, div.span-2, div.span-3, div.span-4, div.span-5, div.span-6, div.span
   padding-right: 920px; }
 
 /* Add these to a column to prepend empty cols. */
+
 .prepend-1 {
   padding-left: 40px; }
 
@@ -488,18 +513,22 @@ div.span-1, div.span-2, div.span-3, div.span-4, div.span-5, div.span-6, div.span
   padding-left: 920px; }
 
 /* Border on right hand side of a column. */
-div.border {
-  padding-right: 9px;
-  margin-right: 10px;
-  border-right: 1px solid #eee; }
-div.colborder {
-  padding-right: 29px;
-  margin-right: 30px;
-  border-right: 1px solid #eee; }
+
+div {
+  &.border {
+    padding-right: 9px;
+    margin-right: 10px;
+    border-right: 1px solid #eee; }
+  &.colborder {
+    padding-right: 29px;
+    margin-right: 30px;
+    border-right: 1px solid #eee; } }
 
 /* Border with more whitespace, spans one column. */
+
 /* Use these classes on an element to push it into the 
    next column, or to pull it into the previous column.  */
+
 .pull-1 {
   margin-left: -40px; }
 
@@ -654,7 +683,9 @@ div.colborder {
 
 /* Misc classes and elements
 -------------------------------------------------------------- */
+
 /* In case you need to add a gutter above/below an element */
+
 .prepend-top {
   margin-top: 1.5em; }
 
@@ -662,12 +693,14 @@ div.colborder {
   margin-bottom: 1.5em; }
 
 /* Use a .box to create a padded box inside a column.  */
+
 .box {
   padding: 1.5em;
   margin-bottom: 1.5em;
   background: #E5ECF9; }
 
 /* Use this to create a horizontal ruler across a column. */
+
 hr {
   background: #ddd;
   color: #ddd;
@@ -676,14 +709,15 @@ hr {
   width: 100%;
   height: .1em;
   margin: 0 0 1.45em;
-  border: none; }
-  hr.space {
+  border: none;
+  &.space {
     background: #fff;
-    color: #fff; }
+    color: #fff; } }
 
 /* Clearing floats without extra markup
    Based on How To Clear Floats Without Structural Markup by PiE
    [http://www.positioniseverything.net/easyclearing.html] */
+
 .clearfix:after, .container:after {
   content: "\0020";
   display: block;
@@ -697,6 +731,7 @@ hr {
 
 /* Regular clearing
    apply to column that should drop below previous ones. */
+
 .clear {
   clear: both; }
 
@@ -710,6 +745,7 @@ hr {
    * For text fields, use class .title or .text
    
 -------------------------------------------------------------- */
+
 label {
   font-weight: bold; }
 
@@ -724,27 +760,31 @@ legend {
 
 /* Form fields
 -------------------------------------------------------------- */
-input.text, input.title {
-  margin: 0.5em 0;
-  border: 1px solid #bbb; }
+
+input {
+  &.text, &.title {
+    margin: 0.5em 0;
+    border: 1px solid #bbb; } }
 
 textarea, select {
   margin: 0.5em 0;
   border: 1px solid #bbb; }
 
-input.text:focus, input.title:focus {
-  border: 1px solid #666; }
+input {
+  &.text:focus, &.title:focus {
+    border: 1px solid #666; } }
 
 textarea:focus, select:focus {
   border: 1px solid #666; }
 
-input.text {
-  width: 300px;
-  padding: 5px; }
-input.title {
-  width: 300px;
-  padding: 5px;
-  font-size: 1.5em; }
+input {
+  &.text {
+    width: 300px;
+    padding: 5px; }
+  &.title {
+    width: 300px;
+    padding: 5px;
+    font-size: 1.5em; } }
 
 textarea {
   width: 390px;
@@ -753,6 +793,7 @@ textarea {
 
 /* Success, notice and error boxes
 -------------------------------------------------------------- */
+
 .error, .notice, .success {
   padding: .8em;
   margin-bottom: 1em;

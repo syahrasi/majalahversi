@@ -1,5 +1,5 @@
 body {
-  font: 1em/1.625em "lucida grande", "lucida sans unicode", sans-serif;
+  font: 1em / 1.625em "lucida grande", "lucida sans unicode", sans-serif;
   background-color: #FFFEF0;
   font-size-adjust: none;
   font-style: normal;
@@ -9,10 +9,10 @@ body {
 p {
   padding: 0 0  0.8125em 0;
   color: #111;
-  font-weight: 300; }
-  p + p {
+  font-weight: 300;
+  + p {
     text-indent: 1.625em; }
-  p.first:first-letter {
+  &.first:first-letter {
     float: left;
     font-family: baskerville,"palatino linotype",serif;
     font-size: 3em;
@@ -20,13 +20,13 @@ p {
     line-height: 1em;
     margin-bottom: -0.2em;
     padding: 0.2em 0.1em 0 0; }
-  p img {
+  img {
     float: left;
     margin: 0.5em 0.8125em 0.8125em 0;
-    padding: 0; }
-    p img.right {
+    padding: 0;
+    &.right {
       float: right;
-      margin: 0.5em  0 0.8125em 0.8125em; }
+      margin: 0.5em  0 0.8125em 0.8125em; } } }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
@@ -56,24 +56,25 @@ h5, h6 {
 ul {
   list-style-position: outside; }
 
-li ul, li ol {
-  margin: 0 1.625em; }
+li {
+  ul, ol {
+    margin: 0 1.625em; } }
 
 ul, ol {
   margin: 0 0 1.625em 0; }
 
 dl {
-  margin: 0 0 1.625em 0; }
-  dl dt {
+  margin: 0 0 1.625em 0;
+  dt {
     font-weight: bold; }
-  dl dd {
-    margin-left: 1.625em; }
+  dd {
+    margin-left: 1.625em; } }
 
 a {
   color: #005AF2;
-  text-decoration: none; }
-  a:hover {
-    text-decoration: underline; }
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline; } }
 
 table {
   margin-bottom: 1.625em;
@@ -107,19 +108,20 @@ del {
 blockquote {
   padding: 1em 1em 1.625em 1em;
   font-family: georgia,serif;
-  font-style: italic; }
-  blockquote:before {
+  font-style: italic;
+  &:before {
     content: "\201C";
     font-size: 3em;
     margin-left: -0.625em;
     font-family: georgia,serif;
     color: #aaa;
     line-height: 0; }
-  blockquote > p {
+  > p {
     padding: 0;
-    margin: 0; }
+    margin: 0; } }
 
 /* From Tripoli  */
+
 strong {
   font-weight: bold; }
 

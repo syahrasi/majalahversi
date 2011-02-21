@@ -1,1 +1,6 @@
 .tmp_*
+*.*~
+css/
+.sass-cache/
+*.swp
+*/*.swp
