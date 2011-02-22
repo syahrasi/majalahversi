@@ -15,10 +15,10 @@ hr {
   height: 2px;
   margin: 2em 0;
   padding: 0;
-  border: none; }
-  hr.space {
+  border: none;
+  &.space {
     background: #fff;
-    color: #fff; }
+    color: #fff; } }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica Neue", Arial, "Lucida Grande", sans-serif; }
@@ -54,10 +54,11 @@ blockquote {
 .hide {
   display: none; }
 
-a:link, a:visited {
-  background: transparent;
-  font-weight: 700;
-  text-decoration: underline; }
-a:link:after, a:visited:after {
-  content: " (" attr(href) ")";
-  font-size: 90%; }
+a {
+  &:link, &:visited {
+    background: transparent;
+    font-weight: 700;
+    text-decoration: underline; }
+  &:link:after, &:visited:after {
+    content: " (" attr(href) ")";
+    font-size: 90%; } }
