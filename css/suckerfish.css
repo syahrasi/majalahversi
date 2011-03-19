@@ -4,17 +4,21 @@
 http://www.htmldog.com/articles/suckerfish/dropdowns/
 http://www.alistapart.com/articles/horizdropdowns
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\000039}}
 #suckerfishmenu {
   background: url(../images/menu-bg.png) bottom repeat-x;
   width: 980px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\0000313}}
 #suckerfishmenu.block {
   margin-bottom: 0;
   padding-bottom: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\0000317}}
 #suckerfishmenu.block, #suckerfishmenu.box {
   padding: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\0000320}}
 #suckerfishmenu.title {
   display: none; }
 
@@ -23,6 +27,7 @@ http://www.alistapart.com/articles/horizdropdowns
   line-height: 30px;
   background: #3f3f3f;
 }*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\0000329}}
 #suckerfishmenu ul.menu {
   /* top level ul */
   padding: 0 0 0 0px;
@@ -30,6 +35,7 @@ http://www.alistapart.com/articles/horizdropdowns
   z-index: 100;
   display: inline; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\0000336}}
 #suckerfishmenu a {
   /*background: #3f3f3f;*/
   color: #333;
@@ -50,12 +56,14 @@ http://www.alistapart.com/articles/horizdropdowns
   border-top: 1px solid #333;
 }
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\0000357}}
 #suckerfishmenu li.active-trail a {
   background: #1d1d1d;
   color: #CCC;
   border-top: 1px solid #333;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6); }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\0000363}}
 #suckerfishmenu a:hover {
   background: #757575;
   text-decoration: none;
@@ -63,6 +71,7 @@ http://www.alistapart.com/articles/horizdropdowns
   border-top: 1px solid #999;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6); }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\0000370}}
 #suckerfishmenu li {
   padding: 0;
   display: block;
@@ -76,23 +85,27 @@ http://www.alistapart.com/articles/horizdropdowns
   height: 1%;*/ }
 
 /* second-level lists */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\0000384}}
 #suckerfishmenu ul.menu ul {
   padding: 0;
   margin: 0;
   list-style: none;
   font-size: 90%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\0000390}}
 #suckerfishmenu ul.menu li ul {
   position: absolute;
   width: 200px;
   left: -999em;
   /* to hide menus because display: none isn't read by screen readers */ }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\0000396}}
 #suckerfishmenu ul.menu li li {
   /* height: auto; */
   float: left;
   width: 200px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\00003101}}
 #suckerfishmenu ul.menu li li a:link, #suckerfishmenu ul.menu li li a:visited {
   color: #efefef;
   background: #757575;
@@ -102,24 +115,30 @@ http://www.alistapart.com/articles/horizdropdowns
   border-left: 1px solid #757575;
   border-right: 1px solid #757575; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\00003110}}
 #suckerfishmenu ul.menu li li.expanded a {
   background-color: #757575; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\00003113}}
 #suckerfishmenu ul.menu li li.expanded a:active, #suckerfishmenu ul.menu li li.expanded a:hover {
   background-color: #757575;
   color: #313131; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\00003117}}
 #suckerfishmenu ul.menu li ul a:active, #suckerfishmenu ul.menu li ul a:hover {
   background: #757575;
   text-decoration: none;
   color: #FFF; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\00003122}}
 #suckerfishmenu ul.menu li li.expanded ul.menu a, #suckerfishmenu ul.menu li li.expanded ul.menu a:active, #suckerfishmenu ul.menu li li.expanded ul.menu a:hover {
   background: #757575; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\00003125}}
 #suckerfishmenu ul.menu li li.expanded ul.menu li.expanded a, #suckerfishmenu ul.menu li li.expanded ul.menu li.expanded a:active, #suckerfishmenu ul.menu li li.expanded ul.menu li.expanded a:hover {
   background-color: #757575; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\00003130}}
 #suckerfishmenu ul.menu li ul a {
   color: #fff;
   width: 200px;
@@ -127,55 +146,72 @@ http://www.alistapart.com/articles/horizdropdowns
   /*line-height: 26px;*/
   font-size: 10px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\00003137}}
 #suckerfishmenu ul.menu li ul a:active, #suckerfishmenu ul.menu li ul a:hover {
   background: #999;
   text-decoration: none; }
 
 /* margin for pullouts */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\00003143}}
 #suckerfishmenu ul.menu li ul ul {
   margin: -23px 0 0 192px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\00003146}}
 #suckerfishmenu ul.menu li:hover ul ul, #suckerfishmenu ul.menu li:hover ul ul ul, #suckerfishmenu ul.menu li.sfhover ul ul, #suckerfishmenu ul.menu li.sfhover ul ul ul {
   left: -999em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\00003149}}
 #suckerfishmenu ul.menu li:hover ul, #suckerfishmenu ul.menu li li:hover ul, #suckerfishmenu ul.menu li li li:hover ul, #suckerfishmenu ul.menu li.sfhover ul, #suckerfishmenu ul.menu li li.sfhover ul, #suckerfishmenu ul.menu li li li.sfhover ul {
   left: auto; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\00003152}}
 #suckerfishmenu ul.menu li ul ul ul {
   margin: -23px 0 0 192px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\00003155}}
 #suckerfishmenu ul.menu ul li:hover ul ul, #suckerfishmenu ul.menu ul li:hover ul ul ul, #suckerfishmenu ul.menu ul li.sfhover ul ul, #suckerfishmenu ul.menu ul li.sfhover ul ul ul {
   left: -999em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\00003158}}
 #suckerfishmenu ul.menu ul li:hover ul, #suckerfishmenu ul.menu ul li li:hover ul, #suckerfishmenu ul.menu ul li li li:hover ul, #suckerfishmenu ul.menu ul li.sfhover ul, #suckerfishmenu ul.menu ul li li.sfhover ul, #suckerfishmenu ul.menu ul li li li.sfhover ul {
   left: auto; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\00003161}}
 #suckerfishmenu ul.menu li li.expanded ul.menu li.expanded ul.menu li a {
   background: #757575; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\00003165}}
 #suckerfishmenu ul.menu li li.expanded ul.menu li.expanded ul.menu li a:active, #suckerfishmenu ul.menu li li.expanded ul.menu li.expanded ul.menu li a:hover {
   background: #757575; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\00003168}}
 #suckerfishmenu ul.menu li li.expanded ul.menu li ul.menu li.expanded a {
   background-color: #757575; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\00003172}}
 #suckerfishmenu ul.menu li li.expanded ul.menu li ul.menu li.expanded a:active, #suckerfishmenu ul.menu li li.expanded ul.menu li ul.menu li.expanded a:hover {
   background-color: #757575; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\00003175}}
 #suckerfishmenu ul.menu li li.expanded ul.menu li ul.menu a {
   background: #757575; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\00003179}}
 #suckerfishmenu ul.menu li li.expanded ul.menu li ul.menu a:active, #suckerfishmenu ul.menu li li.expanded ul.menu li ul.menu a:hover {
   background: #757575; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\00003182}}
 #suckerfishmenu ul.menu li li.expanded ul.menu li ul.menu li.expanded li ul.menu li.expanded a {
   background-color: #757575; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\00003186}}
 #suckerfishmenu ul.menu li li.expanded ul.menu li ul.menu li.expanded li ul.menu li.expanded a:active, #suckerfishmenu ul.menu li li.expanded ul.menu li ul.menu li.expanded li ul.menu li.expanded a:hover {
   background-color: #757575; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\00003189}}
 #suckerfishmenu ul.menu li li.expanded ul.menu li ul.menu li ul.menu a {
   background: #757575; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/suckerfish\.scss}line{font-family:\00003193}}
 #suckerfishmenu ul.menu li li.expanded ul.menu li ul.menu li ul.menu a:active, #suckerfishmenu ul.menu li li.expanded ul.menu li ul.menu li ul.menu a:hover {
   background: #757575; }

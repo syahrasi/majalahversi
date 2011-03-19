@@ -1,3 +1,4 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/print\.scss}line{font-family:\000031}}
 body {
   line-height: 1.5;
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
@@ -5,9 +6,11 @@ body {
   background: none;
   font-size: 10pt; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/print\.scss}line{font-family:\000038}}
 .container {
   background: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/print\.scss}line{font-family:\0000311}}
 hr {
   background: #ccc;
   color: #ccc;
@@ -16,48 +19,61 @@ hr {
   margin: 2em 0;
   padding: 0;
   border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/print\.scss}line{font-family:\0000319}}
   hr.space {
     background: #fff;
     color: #fff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/print\.scss}line{font-family:\0000323}}
 h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica Neue", Arial, "Lucida Grande", sans-serif; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/print\.scss}line{font-family:\0000326}}
 code {
   font: .9em "Courier New", Monaco, Courier, monospace; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/print\.scss}line{font-family:\0000329}}
 img {
   float: left;
   margin: 1.5em 1.5em 1.5em 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/print\.scss}line{font-family:\0000333}}
 a img {
   border: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/print\.scss}line{font-family:\0000336}}
 p img.top {
   margin-top: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/print\.scss}line{font-family:\0000339}}
 blockquote {
   margin: 1.5em;
   padding: 1em;
   font-style: italic;
   font-size: .9em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/print\.scss}line{font-family:\0000345}}
 .small {
   font-size: .9em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/print\.scss}line{font-family:\0000348}}
 .large {
   font-size: 1.1em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/print\.scss}line{font-family:\0000351}}
 .quiet {
   color: #999; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/print\.scss}line{font-family:\0000354}}
 .hide {
   display: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/print\.scss}line{font-family:\0000358}}
 a:link, a:visited {
   background: transparent;
   font-weight: 700;
   text-decoration: underline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/syahrasi\/public_html\/majalahversi\/sites\/all\/themes\/majalahversi\/src\/print\.scss}line{font-family:\0000362}}
 a:link:after, a:visited:after {
   content: " (" attr(href) ")";
   font-size: 90%; }
