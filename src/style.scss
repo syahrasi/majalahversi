@@ -510,7 +510,9 @@ div.block div.content .poll .title {
 .poll .bar .foreground {
   background-color: #666; }
 
-#right div.block-ad div.content, #right-middle div.block-ad div.content {
+#right div.block-ad div.content, 
+#right-top div.block-ad div.content, 
+#right-middle div.block-ad div.content {
   padding: 0;
   border: none; }
 
