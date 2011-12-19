@@ -1,15 +1,15 @@
 <div class='row-date'>
-<?php 
+<?php
   if ($fields['field_status_value']->content == "OPEN") {
     print $fields['created']->content;
   } else {
-    print 'CLOSED';    
-  }    
+    print 'CLOSED';
+  }
 ?>
 </div>
 <div class='row-container'>
   <h3 class='row-title'>
-    <?php print $fields['title']->content; ?>      
+    <?php print $fields['title']->content; ?>
   </h3>
   <p>
     <span class='row-company'><?php print $fields['field_company_value']->content; ?></span>,&nbsp;

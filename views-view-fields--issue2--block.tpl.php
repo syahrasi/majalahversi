@@ -1,7 +1,7 @@
 <div class='row-container'>
   <?php if($fields['field_main_image_fid']->content): ?>
   <div class='row-thumb'>
-    <?php print $fields['field_main_image_fid']->content; ?>    
+    <?php print $fields['field_main_image_fid']->content; ?>
   </div>
   <?php endif ?>
   <div class='row-textgroup'>
@@ -12,7 +12,7 @@
   <?php endif ?>
   <?php if($fields['title']->content): ?>
     <h4 class='row-title'>
-      <?php print $fields['title']->content; ?>      
+      <?php print $fields['title']->content; ?>
     </h4>
   <?php endif ?>
   <?php if($fields['field_job_value']->content): ?>

@@ -1,8 +1,8 @@
-/* -------------------------------------------------------------- 
-  
+/* --------------------------------------------------------------
+
    reset.css
    * Resets default browser CSS.
-   
+
 -------------------------------------------------------------- */
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
@@ -49,14 +49,14 @@ blockquote, q {
 a img {
   border: none; }
 
-/* -------------------------------------------------------------- 
-   
+/* --------------------------------------------------------------
+
    typography.css
    * Sets up some sensible default typography.
-   
+
 -------------------------------------------------------------- */
 
-/* Default font settings. 
+/* Default font settings.
    The font-size percentage is of 16px. (0.75 * 16px = 12px) */
 
 body {
@@ -259,10 +259,10 @@ caption {
   margin-bottom: 0;
   padding-bottom: 0; }
 
-/* -------------------------------------------------------------- 
-   
+/* --------------------------------------------------------------
+
    grid.css
-   
+
 -------------------------------------------------------------- */
 
 /* A container should group all your columns. */
@@ -526,7 +526,7 @@ div {
 
 /* Border with more whitespace, spans one column. */
 
-/* Use these classes on an element to push it into the 
+/* Use these classes on an element to push it into the
    next column, or to pull it into the previous column.  */
 
 .pull-1 {
@@ -735,15 +735,15 @@ hr {
 .clear {
   clear: both; }
 
-/* -------------------------------------------------------------- 
-   
+/* --------------------------------------------------------------
+
    forms.css
    * Sets up some default styling for forms
    * Gives you classes to enhance your forms
-   
+
    Usage:
    * For text fields, use class .title or .text
-   
+
 -------------------------------------------------------------- */
 
 label {

@@ -1,12 +1,12 @@
 <div class='row-container'>
   <?php if($fields['tid']->content): ?>
     <div class='row-term'>
-      <?php print $fields['tid']->content; ?>    
+      <?php print $fields['tid']->content; ?>
     </div>
-  <?php endif ?>  
+  <?php endif ?>
   <?php if($fields['field_main_image_fid']->content): ?>
     <div class='row-image'>
-      <?php print $fields['field_main_image_fid']->content; ?>    
+      <?php print $fields['field_main_image_fid']->content; ?>
     </div>
   <?php endif ?>
   <?php if($fields['title']->content): ?>
@@ -16,6 +16,6 @@
       <?php if($fields['value']->content): ?>
           <div class='row-rating'><?php print $fields['value']->content; ?></div>
       <?php endif ?>
-    </div>  
+    </div>
   <?php endif ?>
 </div>

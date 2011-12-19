@@ -24,7 +24,7 @@
   <h2><a href="<?php print $node_url ?>" title="<?php print $title ?>"><?php print $title ?></a></h2>
 <?php else: ?>
   <?php if($node->nid != 1374): ?>
-    <h2 class="node-title"><?php print $title ?></h2>    
+    <h2 class="node-title"><?php print $title ?></h2>
   <?php endif ?>
 <?php endif; ?>
 <?php if($node->field_subtitle): ?>

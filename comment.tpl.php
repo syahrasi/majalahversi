@@ -17,7 +17,7 @@
         <span class="username"><?php print theme('username', $comment); ?></span> <span class="date"><?php print t('wrote !date ago', array( '!date' => format_interval(time() - $comment->timestamp))); ?></span>
       <?php endif; ?>
     </div>
-    
+
     <div class="content">
       <?php if ($title): ?><h3><?php print $title; ?></h3><?php endif; ?>
       <?php print $content ?>
