@@ -1,6 +1,6 @@
 <div class='row-container'>
   <div class='row-thumb'>
-    <?php print $fields['field_main_image_fid']->content; ?>    
+    <?php print $fields['field_main_image_fid']->content; ?>
   </div>
   <?php if($fields['name']->content || $fields['field_city_value']->content): ?>
     <p class='row-info'>
@@ -17,7 +17,7 @@
   <?php endif ?>
   <?php if($fields['title']->content): ?>
     <h2 class='row-title'>
-      <?php print $fields['title']->content; ?>      
+      <?php print $fields['title']->content; ?>
     </h2>
   <?php endif ?>
   <?php if($fields['teaser']->content): ?>

@@ -1,6 +1,6 @@
 <div class='row-container'>
   <div class='row-image'>
-    <?php print $fields['field_main_image_fid']->content; ?>    
+    <?php print $fields['field_main_image_fid']->content; ?>
   </div>
   <div class='row-galeri-info'>
     <div class='row-title'><?php print $fields['title']->content; ?></div>

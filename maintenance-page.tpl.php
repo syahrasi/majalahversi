@@ -12,10 +12,10 @@
   <!--[if lte IE 7]>
     <link rel="stylesheet" href="<?php print $path; ?>blueprint/blueprint/ie.css" type="text/css" media="screen, projection">
   	<link href="<?php print $path; ?>css/ie.css" rel="stylesheet"  type="text/css"  media="screen, projection" />
-  <![endif]-->  
+  <![endif]-->
   <!--[if lte IE 6]>
   	<link href="<?php print $path; ?>css/ie6.css" rel="stylesheet"  type="text/css"  media="screen, projection" />
-  <![endif]-->  
+  <![endif]-->
 </head>
 <body class="<?php print $body_classes; ?>">
 <a id="feedback-tab" href='<?php print base_path(); ?>contact' class="popups-form-reload" title="Hubungi Kami">Feedback</a>
@@ -33,10 +33,10 @@
       </div>
       <div id="feedbox" class="floatright">
         <?php if($feed_icons): ?>
-          <?php print $feed_icons; ?>   
+          <?php print $feed_icons; ?>
         <?php else: ?>
           <a href="/feed" class="feed-icon"><img src="/misc/feed.png" alt="Syndicate content" title="" height="16" width="16"></a>
-        <?php endif ;?>      
+        <?php endif ;?>
       </div>
       <?php if (isset($secondary_links)) : ?>
         <div id="top-menu" class="span-16 last"><?php print theme('links', $secondary_links, array('id' => 'subnav', 'class' => 'links')) ?></div>
